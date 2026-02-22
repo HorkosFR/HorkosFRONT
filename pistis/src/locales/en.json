@@ -1,0 +1,857 @@
+{
+  "groupInfoCard": {
+    "reliabilitynote": "Average reliability of members",
+    "nodata": "Not enough data to calculate reliability"
+  },
+  "groupSelectDialog": {
+    "title": "Link a group",
+    "image": "Image",
+    "search": "Search a group...",
+    "createTitle": "Create a new group",
+    "name": "Group name",
+    "description": "Description",
+    "cancel": "Cancel",
+    "createLink": "Create & link",
+    "link": "Link",
+    "create": "Create",
+    "notFound": "Not group was found matching the request."
+  },
+  "commentitem": {
+    "unknownUser": "Unknown user",
+    "reduce": "Collapse",
+    "readmore": "Read more",
+    "hide": "Hide replies",
+    "nocomment": "No reply",
+    "see": "See",
+    "answers": "answer(s)",
+    "answer": "Reply",
+    "youranswer": "Your reply...",
+    "send": "Send",
+    "cancel": "Cancel"
+  },
+  "commentpanel": {
+    "title": "Comments",
+    "nocomment": "No comments available.",
+    "addcomment": "Add a comment",
+    "send": "Send",
+    "error": "Error while creating the comment."
+  },
+  "createSource": {
+    "title": "Title",
+    "type": "Type",
+    "link": "Link",
+    "author": "Author",
+    "publishDate": "Publication date"
+  },
+  "entityHomeCard": {
+    "person": "Person",
+    "company": "Company",
+    "reliabilityNote": "Reliability score",
+    "votes": "votes",
+    "novote": "Not enough data to calculate the reliability score",
+    "born": "Born on: ",
+    "founded": "Founded on: ",
+    "link": "Official links",
+    "sector": "Sector",
+    "birthDate": "Birth date",
+    "foundedDate": "Creation date",
+    "country": "Country",
+    "description": "Description",
+    "group": "Groups"
+  },
+  "factcheckCard": {
+    "unknownUser": "Unknown user",
+    "validate": "Validate this verification",
+    "relevence": "Relevance",
+    "hideSource": "Hide sources",
+    "displaySource": "Show sources",
+    "source": "Sources",
+    "addSource": "Add a source",
+    "add": "Add",
+    "openSource": "Open source",
+    "by": "By",
+    "the": "the",
+    "sourceDialog": {
+      "title": "New source",
+      "cancel": "Cancel",
+      "save": "Save"
+    }
+  },
+  "factcheckDialog": {
+    "title": "New verification",
+    "info": "General information",
+    "titleLabel": "Title",
+    "result": "Result",
+    "justification": "Justification",
+    "verifyDate": "Verification date",
+    "cancel": "Cancel",
+    "save": "Save"
+  },
+  "factInfoCard": {
+    "bad": "Bad",
+    "good": "Good",
+    "context": "Context",
+    "linkedFactcheck": "Associated fact-checks",
+    "addFactcheck": "Add a fact-check",
+    "nofactcheck": "No associated fact-check.",
+    "linkedSource": "Associated sources",
+    "addSource": "Add a source",
+    "notitle": "No title",
+    "noauthor": "Unknown author",
+    "openSource": "Open source",
+    "published": "Published on",
+    "updateVote": "Update my vote",
+    "alreadyVote": "Thanks for your vote !",
+    "nosource": "No source linked to this fact.",
+    "sourceDialog": {
+      "title": "New source",
+      "cancel": "Cancel",
+      "save": "Save"
+    },
+    "sourceLinkDialog": {
+      "title": "Add link",
+      "cancel": "Cancel",
+      "save": "Add",
+      "selectExisting": "Select existing link"
+    },
+    "consistentTitle": "Fact consistency",
+    "currentScore": "Current score",
+    "votes": "votes",
+    "consistent1": "Not consistent",
+    "consistent2": "Slightly consistent",
+    "consistent3": "Moderately consistent",
+    "consistent4": "Fairly consistent",
+    "consistent5": "Highly consistent",
+    "consistentVote": "Vote consistency",
+    "importantTitle": "Fact importance",
+    "important1": "Not important",
+    "important2": "Slightly important",
+    "important3": "Moderately important",
+    "important4": "Fairly important",
+    "important5": "Very important",
+    "importantVote": "Vote importance"
+  },
+  "report": {
+    "report": "Report",
+    "reportContent": "Report content",
+    "comment": "Comment",
+    "cancel": "Cancel",
+    "send": "Send",
+    "reason": {
+      "label": "Reason for report",
+      "inappropriate": "Inappropriate content",
+      "lies": "Disinformation",
+      "spam": "Spam / advertising",
+      "bugs": "Bug / application issue",
+      "other": "Other"
+    },
+    "error": "Error while reporting"
+  },
+  "home": {
+    "first": "Featured",
+    "demoMessage": "🚧 This site is currently in demonstration mode. Only sample data and a design preview are available for now. All data and ratings are generated. Any resemblance to a real entity or person is unintentional and does not represent actual information about the entity. The final content will be published soon.",
+    "learnmore": "Learn more...",
+    "noEntity": "No entity available at the moment.",
+    "noFacts": "No facts available at the moment.",
+    "latestFacts": "Latest facts created",
+    "horkosTitle": "Political transparency, one fact at a time.",
+    "horkosContent": "It’s becoming harder to cut through the noise of endless public statements. Horkos centralizes key events in political life to help you see clearly. This is an open project: here, citizens provide the sources, verify the data, and vote to evaluate the reliability of every piece of information.",
+    "donation": "Donation",
+    "soon": "Coming soon..."
+  },
+  "footer": {
+    "about": "About",
+    "legal": "Legal Notice",
+    "privacy": "Privacy"
+  },
+  "entityCreate": {
+    "title": "Create an entity",
+    "subtitle": "Fill out the form to add a new entity.",
+    "addPicture": "Public link of the picture",
+    "changePicture": "Change picture",
+    "name": "Name *",
+    "type": "Type *",
+    "sector": "Sector",
+    "country": "Countries",
+    "birthDate": "Birth date",
+    "createdDate": "Creation date",
+    "bio": "Short bio",
+    "link": "Add an official link",
+    "reinit": "Reset",
+    "create": "Create",
+    "required": "This field is required"
+  },
+  "entityUpdate": {
+    "title": "Update an entity",
+    "subtitle": "Fill out the form to Update the entity.",
+    "addPicture": "Add a picture",
+    "changePicture": "Change picture",
+    "name": "Name *",
+    "type": "Type *",
+    "sector": "Sector",
+    "country": "Countries",
+    "birthDate": "Birth date",
+    "createdDate": "Creation date",
+    "bio": "Short bio",
+    "link": "Add an official link",
+    "reinit": "Reset",
+    "create": "Update",
+    "required": "This field is required"
+  },
+  "entity": {
+    "search": {
+      "title": "Search / Filter Facts",
+      "label": "Search a fact...",
+      "tags": "Tags",
+      "good": "Good",
+      "bad": "Bad",
+      "all": "All",
+      "actionType": "Action type",
+      "reinit": "Reset"
+    },
+    "timeline": {
+      "title": "Timeline",
+      "addFact": "Add a fact",
+      "good": "Good",
+      "bad": "Bad",
+      "context": "Context & summary",
+      "consistency": "Fact consistency",
+      "importance": "Fact importance",
+      "factcheck": "fact-check",
+      "source": "source",
+      "factchecks": "Fact-checks",
+      "sources": "Sources",
+      "nofactcheck": "No fact-check associated.",
+      "nosource": "No source linked to this fact.",
+      "notitle": "Untitled",
+      "noauthor": "Unknown author",
+      "gotoSource": "View source",
+      "published": "Published on",
+      "addfactcheck": "Add a fact-check",
+      "addsource": "Add a source",
+      "loadingfactcheck": "Loading facts...",
+      "loadingentity": "Loading entity...",
+      "hide": "Hide",
+      "more": "See more",
+      "factDialog": {
+        "title": "Confirm creation",
+        "description": "Do you want to create a new fact?<br />You will be redirected to the detailed creation page.",
+        "cancel": "Cancel",
+        "validate": "Confirm"
+      },
+      "sourceDialog": {
+        "title": "New source",
+        "cancel": "Cancel",
+        "save": "Save"
+      }
+    },
+    "required": "Please fill in the required fields.",
+    "factcheckError": "Error while creating the fact-check."
+  },
+  "factCreate": {
+    "title": "Title *",
+    "good": "Good",
+    "bad": "Bad",
+    "mainInfo": "Main information",
+    "type": "Fact type *",
+    "startDate": "Start date *",
+    "endDate": "End date",
+    "context": "Context *",
+    "summary": "Summary *",
+    "statement": "Statement *",
+    "verdict": "Verdict",
+    "tags": "Tags *",
+    "mainSource": "Sources",
+    "sourceTitle": "Source title *",
+    "sourceType": "Source type *",
+    "sourceAuthor": "Source author *",
+    "sourceUrl": "Source link *",
+    "import": "Import from link",
+    "importFromUrl": "Importer from link",
+    "url": "Link",
+    "cancel": "Cancel",
+    "send": "Import",
+    "publishDate": "Publication date *",
+    "content": {
+      "label": "Content *",
+      "bold": "Bold",
+      "italic": "Italic",
+      "strike": "Strikethrough",
+      "code": "Code",
+      "clearMarks": "Clear marks",
+      "clearNodes": "Clear nodes",
+      "paragraph": "Paragraph",
+      "h1": "H1",
+      "h2": "H2",
+      "h3": "H3",
+      "h4": "H4",
+      "h5": "H5",
+      "h6": "H6",
+      "bullet": "Bullet list",
+      "ordered": "Numbered list",
+      "codeBlock": "Code block",
+      "blockQuote": "Block quote",
+      "divider": "Divider",
+      "hardbreak": "Forced line break",
+      "undo": "Undo",
+      "redo": "Redo"
+    },
+    "preview": {
+      "context": "Fact context",
+      "summary": "Fact summary",
+      "verdict": "Fact verdict",
+      "title": "Fact title"
+    },
+    "next": "Next",
+    "previous": "Previous",
+    "create": "Create"
+  },
+  "factUpdate": {
+    "title": "Title *",
+    "good": "Good",
+    "bad": "Bad",
+    "mainInfo": "Main information",
+    "type": "Fact type *",
+    "startDate": "Start date *",
+    "endDate": "End date",
+    "context": "Context *",
+    "summary": "Summary *",
+    "statement": "Statement *",
+    "verdict": "Verdict",
+    "tags": "Tags *",
+    "mainSource": "Sources",
+    "sourceTitle": "Source title *",
+    "sourceType": "Source type *",
+    "sourceAuthor": "Source author *",
+    "sourceUrl": "Source link *",
+    "publishDate": "Publication date *",
+    "content": {
+      "label": "Content *",
+      "bold": "Bold",
+      "italic": "Italic",
+      "strike": "Strikethrough",
+      "code": "Code",
+      "clearMarks": "Clear marks",
+      "clearNodes": "Clear nodes",
+      "paragraph": "Paragraph",
+      "h1": "H1",
+      "h2": "H2",
+      "h3": "H3",
+      "h4": "H4",
+      "h5": "H5",
+      "h6": "H6",
+      "bullet": "Bullet list",
+      "ordered": "Numbered list",
+      "codeBlock": "Code block",
+      "blockQuote": "Block quote",
+      "divider": "Divider",
+      "hardbreak": "Forced line break",
+      "undo": "Undo",
+      "redo": "Redo"
+    },
+    "preview": {
+      "context": "Fact context",
+      "summary": "Fact summary",
+      "verdict": "Fact verdict",
+      "title": "Fact title"
+    },
+    "next": "Next",
+    "previous": "Previous",
+    "update": "Update"
+  },
+  "fact": {
+    "loadingFact": "Loading fact...",
+    "loadingEntity": "Loading entity..."
+  },
+  "auth": {
+    "verifyingTitle": "Verifying...",
+    "verifiedTitle": "Account Activated!",
+    "errorTitle": "Oops!",
+    "verifyingText": "Please wait while we validate your account...",
+    "congratulations": "Congratulations!",
+    "activationSuccess": "Your email address has been confirmed. You can now log in.",
+    "goToLogin": "Login",
+    "invalidToken": "The link is invalid or has expired.",
+    "needHelp": "Need help?",
+    "helpText": "If you're having trouble, our team is here for you."
+  },
+  "register": {
+    "title": "Create an account",
+    "subtitle": "Fill below informations to create your account.",
+    "username": "Username *",
+    "email": "Email *",
+    "password": "Password *",
+    "confirm": "Confirm password *",
+    "reinit": "Reinit",
+    "resend": "Resend email",
+    "register": "Register",
+    "registeredTitle": "Account created",
+    "registeredText": "Your account has been successfully created! A confirmation email has been sent to ",
+    "registeredInstruction": "Please click the link in the email to activate your account. If you don't see it within a few minutes, be sure to check your spam folder."
+  },
+  "forgotPassword": {
+    "title": "Forgot Password",
+    "emailSubtitle": "Enter your email address to receive a reset link.",
+    "send": "Send link",
+    "sentTitle": "Email sent",
+    "sentText": "A recovery link has been sent to:",
+    "sentInstruction": "Please check your inbox (and spam folder) and follow the instructions to create a new password.",
+    "subtitle": "Please enter your new password below.",
+    "update": "Update password",
+    "updatedTitle": "Password updated",
+    "updatedMessage": "Your password has been successfully changed. You can now log in."
+  },
+  "settings": {
+    "title": "Profile",
+    "changePicture": "Change picture",
+    "username": "Username",
+    "email": "Email",
+    "save": "Save changes",
+    "security": "Security",
+    "currentPassword": "Current password",
+    "newPassword": "New password",
+    "confirmPassword": "Confirm new password",
+    "changePassword": "Change password",
+    "preferences": "Preferences",
+    "savePreferences": "Save preferences",
+    "darkmode": "Dark mode",
+    "danger": "Danger",
+    "dangerInfo": "Deleting your account is irreversible. All your data will be lost.",
+    "deleteAccount": "Delete my account"
+  },
+  "nav": {
+    "language": "Language",
+    "search": "Search an entity...",
+    "menu": {
+      "entity": "Create an entity",
+      "group": "Create a group",
+      "horkos": "Discover Horkos",
+      "contact": "Contact us",
+      "report": "Report a problem",
+      "profile": "My profile",
+      "settings": "Settings",
+      "logout": "Log out",
+      "login": "Log in",
+      "register": "Create an account",
+      "donation": "Make a donation",
+      "usermode": "User mode",
+      "demoModal": {
+        "modalTitle": "Login",
+        "contentTitle": "<strong>Demo Mode</strong>",
+        "content": "This version of the application uses a fictitious user account. No personal data is required and some interactive features are not available.<br />This mode simply allows you to explore the interface and the behavior of the application as if you were logged in.",
+        "cancel": "Cancel",
+        "login": "Login",
+        "error": "Login error"
+      },
+      "loginModal": {
+        "modalTitle": "Login",
+        "contentTitle": "<strong>Demonstration Mode</strong>",
+        "content": "This version of the application uses a fictitious user account. No personal data is required, and some interactive features are unavailable.<br />This mode simply allows you to discover the interface and how the application works as if you were logged in.",
+        "cancel": "Cancel",
+        "login": "Login",
+        "error": "Login error",
+        "email": "Email",
+        "password": "Password",
+        "createAccount": "Create an account",
+        "forgotPassword": "Forgot password?"
+      },
+      "reportModal": {
+        "modalTitle": "Report a problem",
+        "reason": {
+          "label": "Reason for reporting",
+          "inappropriate": "Inappropriate content",
+          "lies": "Disinformation",
+          "spam": "Spam / advertising",
+          "bugs": "Bug / application issue",
+          "other": "Other"
+        },
+        "describe": "Describe the issue encountered...",
+        "cancel": "Cancel",
+        "send": "Send",
+        "error": "Error while reporting"
+      }
+    }
+  },
+  "horkosview": {
+    "tabs": {
+      "presentation": "General Presentation",
+      "cgu": "Terms of Use",
+      "createFact": "Rules for Creating a Fact",
+      "contributionPractice": "Good Contribution Practices",
+      "tags": "Tag System",
+      "reliability": "Reliability Calculation",
+      "legal": "Legal Notice",
+      "transparency": "Financial Transparency",
+      "privacy": "Privacy",
+      "technical": "Technical Aspect"
+    },
+    "presentation": {
+      "titleWho": "Who is <em>Horkos</em>?",
+      "p1": "In Greek mythology, <strong>Horkos</strong> personifies the <strong>oath</strong> and the <strong>truth given in one’s word</strong>. He ensures that commitments are kept and that the justice of words prevails over lies and concealment.",
+      "p2": "It is in this spirit that our platform was created. <strong>Horkos</strong> is a civic space dedicated to <strong>fact-checking public information</strong>, <strong>political statements</strong>, and <strong>commitments made before society</strong>.</br>Here, anyone can contribute to a collective effort: restoring truth at the heart of public debate.",
+      "titleCommunity": "The community in service of transparency",
+      "p3": "Horkos is neither a social network nor a media outlet. It is a <strong>tool for participatory transparency</strong>, where citizens can <strong>document</strong>, <strong>verify</strong>, and <strong>evaluate the reliability</strong> of facts associated with public and political figures.",
+      "p4": "Each contribution—whether a fact, a verification, or a comment—enhances collective understanding. Together, users build a <strong>shared database</strong> where precision and rigour take precedence over opinion or controversy.",
+      "alertCollective": "<strong>Transparency is not an individual battle,</strong><br /> it is a collective effort, serving everyone.",
+      "titleReliabilityNote": "The reliability score: an indicator, not a judgment",
+      "p5": "Every public figure or documented fact on Horkos is associated with a <strong>reliability score</strong>. This score is calculated based on several objective criteria:",
+      "listReliability": {
+        "sources": "<strong>Documented sources</strong> verified by the community.",
+        "contradictions": "<strong>Contradictory statements</strong> or confirmations over time.",
+        "crossChecks": "<strong>Cross-verifications</strong> between different contributors."
+      },
+      "p6": "It is essential to understand that this score <strong>is not a moral judgment</strong>. It does not seek to separate “good” from “bad”, but to measure the <strong>consistency</strong> and <strong>transparency</strong> of a public figure. In other words: it does not evaluate opinions, but the <strong>sincerity of facts</strong>.",
+      "alertMirror": "<em>The reliability score is not a sanction, but a mirror.</em><br /> It reflects the consistency between words and actions.",
+      "titleCitizenInfo": "A civic information space",
+      "p7": "Our ambition is simple: to provide every citizen with the means to <strong>understand, verify, and evaluate</strong> the information shaping public life. By giving everyone a voice, we create a place where truth becomes a shared good, protected from arbitrariness and deception.",
+      "p8": "<strong>Horkos</strong> does not seek to judge, but to <strong>inform</strong>. It is a tool of democratic value, serving trust between citizens, institutions, and representatives.",
+      "titleVision": "Our vision",
+      "p9": "We believe that an honest society begins with clarity. Transparency is a shared responsibility, a link between individuals and the institutions they choose to trust."
+    },
+    "cgu": {
+      "title": "Terms of Use",
+      "body": "<strong>Horkos</strong> is a civic platform dedicated to the verification of public facts and to information transparency. Its goal is to give everyone the means to document, contextualize, and collectively verify facts related to public figures, organizations, or entities. <strong>Horkos</strong> is neither a media outlet, nor a social network, nor a space for activist expression. The project is built on rigor, neutrality, and individual responsibility, in service of a more informed public debate.<br/><br/>By using the platform, each user acknowledges full responsibility for the content they publish, whether it consists of facts, verifications, sources, or comments. All contributions must be made in good faith and in compliance with applicable laws, particularly those relating to defamation, insult, privacy protection, and the presumption of innocence. Users are expected to clearly distinguish verifiable facts from personal opinions, which should not be presented as objective information.<br/><br/>Behavior within the community must remain respectful at all times. Disagreement is legitimate and part of the normal functioning of a collective fact-checking space, but it cannot justify personal attacks, contemptuous remarks, or attempts to discredit others. Discussions should focus on content and sources, not on presumed intentions or on contributors themselves. Any use of the platform for harassment, propaganda, commercial promotion, or manipulation runs counter to the spirit of <strong>Horkos</strong>.<br/><br/>Certain types of content are strictly prohibited. These include unsourced accusations, information that is clearly false or misleading, the dissemination of personal or sensitive data, as well as any form of spam or disguised advertising. Attempts to manipulate the system, whether through votes, scores, or discussions, undermine the integrity of the project and will not be tolerated.<br/><br/><strong>Horkos</strong> provides a reporting system that allows any user to alert the moderation team to problematic, inappropriate, or clearly erroneous content. Reports are reviewed carefully and may lead, depending on the situation, to a correction, removal of the content, or measures taken against the account concerned. Moderation is not intended to censor opinions, but to ensure the quality, legality, and clarity of published information.<br/><br/>In the event of serious or repeated violations of the platform’s rules, <strong>Horkos</strong> reserves the right to restrict access to certain features, temporarily suspend an account, or permanently delete it. These decisions are made in a proportionate manner, with the aim of protecting the community and the project as a whole.<br/><br/>Use of <strong>Horkos</strong> implies full acceptance of these rules, which may evolve over time in order to adapt to the legal framework, community practices, and user feedback."
+    },
+    "createFact": {
+      "title": "Rules for Creating a Fact",
+      "body": "A fact, within the meaning of <strong>Horkos</strong>, is a precise, dated, and verifiable piece of information associated with a public entity. It is based on observable or documented elements and can be confirmed or challenged using accessible sources. A fact is neither an opinion, nor a personal analysis, nor a moral judgment. It must be understandable, verifiable, and open to discussion regardless of who publishes it.<br/><br/>Creating a fact requires meeting several essential criteria. Contributors must provide a clear context that makes it possible to understand what happened, a factual summary that is accessible to all, and the specific elements on which the information is based, such as a statement, a decision, or an identified event. Any fact must be accompanied by at least one reliable primary source, clearly identified and directly linked to the content presented. Dates must be consistent and allow the fact to be placed in time without ambiguity.<br/><br/>The wording of a fact must remain strictly neutral. The contributor’s role is to describe elements as they are established, without attempting to guide the reader’s interpretation. Accusatory, ironic, or suggestive wording that implies unproven intent should be avoided. When contradictions exist, they must be presented factually, supported by sources, without exaggeration or judgment.<br/><br/>Sources must be identifiable, accessible, and verifiable. They should clearly indicate their author, publication date, and origin. Anonymous content, screenshots without context, rumors, or unverifiable documents are not acceptable sources. When a fact relies on multiple sources, their diversity and consistency strengthen its reliability and credibility.<br/><br/>Speculation, extrapolation, presumed intentions, personal analysis, or content whose primary purpose is emotional or activist are not considered valid facts. Any fact that cannot be verified or rigorously contextualized may be challenged by the community or by moderation.",
+      "factType": {
+        "title": "Fact Types",
+        "description": "Every piece of information on Horkos must be classified into one of the following categories to ensure analytical clarity.",
+        "statement": {
+          "title": "Public Statement",
+          "description": "Encompasses all official remarks, whether written or oral, made by the individual in the context of their duties or public life. This includes media appearances, posts on official social media accounts, campaign speeches, press op-eds, and parliamentary interventions. These facts serve as a baseline to compare words with future actions.",
+          "example": "Example: \"Statement on BFM TV on 01/12/2026 affirming the intention to reduce local public debt by 10% before the end of the term.\""
+        },
+        "flipflop": {
+          "title": "Change of Mind",
+          "description": "Identifies a reversal of ideological or political stance on a specific subject. This type of fact is crucial for measuring a candidate's stability. It generally requires linking two chronologically distinct facts to highlight the contradiction between a past position and a current one without an explicit justification for this shift.",
+          "example": "Example: \"Formal opposition in 2025 to a development tax that they had personally defended and voted for during the March 2022 city council meeting.\""
+        },
+        "decision": {
+          "title": "Decision",
+          "description": "Represents the concrete exercise of power. This involves tangible administrative, legislative, or executive acts: voting on a law, signing a decree, validating a budget resolution, or an official appointment. It is the most reliable indicator for judging an elected official's real impact on society, beyond simple promises.",
+          "example": "Example: \"Signature of municipal decree n°2025-42 enacting a 15% reduction in the budget allocated to the maintenance of school infrastructure.\""
+        },
+        "case": {
+          "title": "Legal/Ethical Case",
+          "description": "Lists judicial files, administrative investigations, or documented journalistic revelations. This category covers indictments and convictions, as well as reports to oversight bodies (such as the High Authority for Transparency in Public Life or the Court of Auditors). It is essential for assessing the individual's probity and ethical integrity.",
+          "example": "Example: \"Opening of a preliminary investigation by the National Financial Prosecutor's Office regarding suspicions of embezzlement of public funds within the management of an urban renewal contract.\""
+        },
+        "relationship": {
+          "title": "Relationship",
+          "description": "Maps the networks of influence surrounding the individual. This includes family ties within the administration, past business partnerships, major campaign donors, or membership in influence circles. This type of fact helps detect potential conflicts of interest or nepotism networks.",
+          "example": "Example: \"Appointment of a spouse to the position of Chief of Staff at City Hall, raising questions regarding compliance with local ethical standards.\""
+        },
+        "behavior": {
+          "title": "Behavior",
+          "description": "Analyzes the public attitude and interpersonal ethics of the individual within the framework of their mandate. This records chronic absenteeism, session incidents, documented verbal altercations, or respect for democratic protocols. It allows for a judgment of temperament and the ability to worthily represent an institution.",
+          "example": "Example: \"Temporary exclusion from the assembly chamber by the presiding officer following repeated insulting remarks toward a member of the opposition.\""
+        },
+        "career": {
+          "title": "Career",
+          "description": "Groups the key stages of the professional and political journey before and during mandates. This includes academic background, positions held in the private sector (revolving door cases), and the history of elective mandates. This category serves to identify shadow areas or specific expertise of a candidate.",
+          "example": "Example: \"Serving as a consultant for a major industrial energy group alongside a mandate as chairman of an environmental commission.\""
+        },
+        "success": {
+          "title": "Success",
+          "description": "Documents the achievement of concrete, quantified, and verifiable objectives by third-party organizations. A success must be directly attributable to an action or policy led by the individual. This category highlights political efficiency and the ability to transform commitments into positive realities for the community.",
+          "example": "Example: \"Official certification by an independent body of the achievement of the 'Zero Homeless' goal in the municipality, in accordance with the 2020 electoral program.\""
+        },
+        "failure": {
+          "title": "Failure",
+          "description": "Notes the inability to reach an announced objective or a clear breach of an electoral promise. Failure is documented by official statistical indicators or audit reports. It measures the gap between stated ambitions and actual implementation capabilities.",
+          "example": "Example: \"Finding of a 20% increase in local taxes even though the candidate had committed in writing to absolute fiscal stability throughout the term.\""
+        },
+        "factMisc": {
+          "title": "Miscellaneous Fact",
+          "description": "This residual category holds any information of public interest that does not fit into the previous classifications but provides indispensable insight into the vision, methods, or personality of the official. This may include book publications, awards, or notable community involvement.",
+          "example": "Example: \"Publication of a political essay detailing a nuclear phase-out strategy, marking a major doctrinal turning point compared to their party's line.\""
+        }
+      }
+    },
+    "contributionPractice": {
+      "title": "Good Contribution Practices",
+      "body": "High-quality contributions are first and foremost built on clarity. A well-written fact should be understandable without prior knowledge of the subject, thanks to a clear structure and well-organized information. Context is essential, but it should remain proportionate and serve understanding, without overwhelming the reader with secondary or irrelevant details.<br/><br/>The choice of sources is a central element of contribution quality. Whenever possible, primary sources should be favored, information should be cross-checked, and attention should be paid to editorial bias or sensationalist headlines. A reliable source is not one that confirms a personal belief, but one that allows any reader to independently verify the information.<br/><br/>As <strong>Horkos</strong> is a collaborative project, contradiction is an integral part of how it functions. A fact may be completed, refined, or challenged in light of new information or sources. Accepting reconsideration, correcting an error, or enriching existing content is a sign of rigor, not weakness. The project’s reliability depends on this collective ability to improve.<br/><br/>Finally, contributors are encouraged to keep in mind the impact of their publications. Each fact, each verification, and each vote influences how an entity is perceived and the overall credibility of the platform. Before publishing, it is always useful to ask whether the proposed content truly helps to improve understanding, provides verifiable information, and contributes positively to the transparency mission carried by <strong>Horkos</strong>."
+    },
+    "tags": {
+      "title": "Tag System & Weighting",
+      "intro1": "Each fact or item recorded in the <strong>Horkos</strong> database is associated with one or more <strong>thematic tags</strong> that characterize the nature of the information and its impact on the <strong>overall reliability of a public figure</strong>.",
+      "intro2": "These tags are grouped into major <strong>categories</strong>, each representing an axis for evaluating credibility, transparency, or integrity. Each category is associated with a <strong>weight</strong> reflecting its importance in the calculation of the final reliability score.",
+      "categories": {
+        "identity": {
+          "title": "Identity and Background — <strong>0.1</strong>",
+          "p": "This category measures the consistency between the public figure and their personal and professional background. It aims to verify whether basic information is transparent, complete, and coherent. A clear, contradiction-free profile inspires trust, though this dimension remains secondary to integrity or consistency between words and actions.",
+          "items": {
+            "publicIdentity": "<strong>Coherent public identity:</strong> Checks the consistency between an individual’s public image (official biography, speeches, positions) and known factual elements (civil status, real background, organisational affiliations). Repeated discrepancies may indicate image manipulation or an intent to conceal.",
+            "career": "<strong>Clear professional / political background:</strong> Analyses the transparency of the career path: dates, responsibilities, affiliations, job transitions. A transparent and verifiable career strengthens reliability; a path with blind spots, time inconsistencies, or omissions may reduce it.",
+            "legalHistory": "<strong>Judicial history:</strong> Takes into account convictions, indictments or legal cases, even old ones, unrelated to the main activity. The goal is not moral judgment but an assessment of compliance with the law and recurrence of problematic behaviours."
+          }
+        },
+        "integrity": {
+          "title": "Transparency and Integrity — <strong>0.2</strong>",
+          "p": "A fundamental category of the model. It evaluates an individual’s ability to be accountable, act honestly, and avoid corruption or opacity. Its high weight reflects the central importance of integrity in public reliability.",
+          "items": {
+            "belongings": "<strong>Declaration of assets and interests:</strong> Measures the clarity and verifiability of official disclosures (assets, income, mandates). A complete, up-to-date public declaration consistent with observable lifestyle is a strong indicator of transparency.",
+            "scandals": "<strong>History of scandals / corruption:</strong> Lists media or legal cases involving corruption, illegal financing, or abuse of power. Each verified case negatively affects the score depending on its severity and recurrence.",
+            "rules": "<strong>Compliance with institutional rules:</strong> Evaluates adherence to administrative, financial and ethical rules related to the functions exercised. Serious breaches (abuse of office, bypassing procedures) significantly reduce reliability.",
+            "conflicts": "<strong>Management of conflicts of interest:</strong> Analyses the ability to recognise and manage conflicts between personal interests and public duties. Lack of preventive measures or concealment of private interests heavily affects the final score."
+          }
+        },
+        "coherence": {
+          "title": "Consistency between Actions and Discourse — <strong>0.2</strong>",
+          "p": "This category reflects fidelity between words and actions, consistency in positions and the credibility of commitments. It represents the link between public speech and the measurable reality of decisions.",
+          "items": {
+            "promises": "<strong>Fulfilled electoral promises:</strong> Compares campaign commitments with measures actually implemented. A high fulfilment rate demonstrates political consistency and increased reliability.",
+            "stability": "<strong>Stability of positions:</strong> Measures long-term consistency of opinions. Changes justified by new facts are not penalized, but repeated opportunistic reversals may be.",
+            "align": "<strong>Alignment between discourse and decisions:</strong> Analyses contradictions between public statements and actual decisions. Frequent divergence is a sign of inconsistency or manipulative communication."
+          }
+        },
+        "competence": {
+          "title": "Competence and Experience — <strong>0.1</strong>",
+          "p": "Evaluates the ability to effectively carry out entrusted responsibilities. This category measures performance and technical credibility rather than morality.",
+          "items": {
+            "results": "<strong>Tangible results achieved:</strong> Measurable outcomes of actions taken (reforms, budget management, economic results, social impact). Verifiable successes reinforce perceived reliability, independent of popularity.",
+            "communication": "<strong>Clear communication skills:</strong> Evaluates transparency and clarity of public speech. Coherent, accessible and verifiable communication contributes to institutional trust."
+          }
+        },
+        "relations": {
+          "title": "Relationships and Alliances — <strong>0.1</strong>",
+          "p": "Evaluates a public figure’s political, institutional and financial network. A dubious alliance or support may affect public perception without necessarily implying wrongdoing.",
+          "items": {
+            "partnership": "<strong>Reliable partners and supporters:</strong> Analyses the integrity of main partners or financial backers. Repeated relationships with convicted or controversial actors harm credibility.",
+            "independency": "<strong>Political independence:</strong> Assesses the ability to make decisions without external pressure (lobbyists, party, donors). A figure perceived as autonomous and courageous gains reliability.",
+            "network": "<strong>Institutional / international network:</strong> Measures the quality and stability of relationships with institutions, countries or organisations. Consistent and transparent diplomacy supports an image of seriousness and responsibility."
+          }
+        },
+        "behavior": {
+          "title": "Personal Behaviour and Leadership — <strong>0.1</strong>",
+          "p": "Measures individual ethics, public posture and leadership quality. This category relates to the human and moral perception of the person.",
+          "items": {
+            "attitude": "<strong>Public attitude:</strong> Behaviour in debates, official appearances or when facing opposition. A respectful and measured attitude inspires trust, while contemptuous or aggressive behaviour reduces it.",
+            "ethical": "<strong>Ethical personal behaviour:</strong> Verifies consistency between private life and publicly stated values. Major contradictions or personal scandals may harm moral credibility without constituting a moral judgment.",
+            "management": "<strong>Team and stress management:</strong> Evaluates the ability to lead without abusing authority, make balanced decisions under pressure, and inspire team members. Humane and stable leadership reinforces perceived reliability."
+          }
+        }
+      },
+      "summaryTitle": "Weighting Summary",
+      "summary": "Identity and background .................. 0.1<br />Transparency and integrity .............. 0.2<br />Actions / discourse consistency ......... 0.2<br />Competence and experience ............... 0.1<br />Relationships and alliances ............. 0.1<br />Personal behaviour & leadership ......... 0.1",
+      "finalNote": "These weightings were chosen to balance the moral, institutional and factual aspects of reliability. They may be adjusted based on community feedback or empirical studies to improve neutrality and representativeness."
+    },
+    "reliability": {
+      "title": "Reliability Calculation",
+      "intro": "The <strong>reliability</strong> score is designed to provide a quantitative indicator of the <strong>consistency</strong> and <strong>transparency</strong> of information related to a public figure. It combines several elements: fact characteristics, credibility of checks, age of items, and community participation. Below is a detailed description of the model and the formulas used.",
+      "section1": {
+        "title": "1) Categories & Weightings (TypeWeight)",
+        "description": "Each piece of evidence (fact / verification) is assigned to a thematic category. Each category has a fixed <code>TypeWeight</code> reflecting its relative importance in overall reliability.",
+        "list1": "<strong>Identity & background</strong> — 0.1",
+        "list2": "<strong>Transparency & integrity</strong> — 0.2",
+        "list3": "<strong>Actions / discourse consistency</strong> — 0.2",
+        "list4": "<strong>Competence / results</strong> — 0.1",
+        "list5": "<strong>Relationships / alliances</strong> — 0.1",
+        "list6": "<strong>Behaviour & leadership</strong> — 0.1"
+      },
+      "section2": {
+        "title": "2) Time Weighting",
+        "description": "Older facts weigh less than recent ones: a temporal factor<br /> <code>TimeWeight</code> based on exponential decay is applied:",
+        "timeWeight": "TimeWeight(t) = e^( - λ × age_in_years ) where λ = 0.1 (decay parameter)"
+      },
+      "section3": {
+        "title": "3) Impact of a Piece of Evidence (impactValue)",
+        "description": "For each piece of evidence, an <strong>impact</strong> is computed based on:",
+        "gravity": "<strong>Gravity</strong> (severity of the fact) — value between 0 and 100",
+        "reliability": "<strong>Reliability</strong> (measured reliability of a verification or source) — value between 0 and 100",
+        "choice": "Logical choice:",
+        "calculation": "If Gravity > 0 and Reliability > 0:<br /> impactValue = (Gravity / 100) × (Reliability / 100) <br /> Otherwise if Gravity > 0:<br /> impactValue = (Gravity / 100)<br /> Otherwise if Reliability > 0: impactValue = 1 - (Reliability / 100)",
+        "idea": "→ Idea: a severe fact confirmed by reliable checks increases impact; a reliable verification of a positive action reduces negative impact."
+      },
+      "section4": {
+        "title": "4) Weighted Calculation (per evidence)",
+        "forEachFact": "For each piece of evidence:",
+        "calculation": "WeightedImpact = impactValue × TypeWeight × TimeWeight"
+      },
+      "section5": {
+        "title": "5) Aggregation",
+        "description": "Weighted contributions and total weights are summed:",
+        "calculation": "weightedSum = Σ ( WeightedImpact_i )<br />totalWeight = Σ ( TypeWeight_i × TimeWeight_i )"
+      },
+      "section6": {
+        "title": "6) Normalization and Final Score",
+        "description": "Impact is normalized and converted into a reliability percentage:",
+        "calculation": "NormalizedImpact = weightedSum / totalWeight<br /><br />Reliability (%) = 100 × (1 − NormalizedImpact)",
+        "normalizedImpact": "→ If <code>NormalizedImpact</code> is near 0 (few negative impacts), reliability tends toward 100%.<br />If <code>NormalizedImpact</code> is high (strong negative evidence), reliability decreases."
+      },
+      "section7": {
+        "title": "7) Source Handling",
+        "description": "Sources affect the evidence they support: the average reliability of linked sources improves (or worsens) the reliability of the factual evidence.",
+        "calculation": "For evidence T linked to sources S₁..Sₙ:<br />avgSourceReliability = (Σ Reliability(S_j)) / n<br />Apply: Reliability(T) ← Reliability(T) × (0.5 + 0.5 × (avgSourceReliability / 100))"
+      },
+      "section8": {
+        "title": "8) Incremental Update",
+        "description": "The algorithm allows adding evidence <em>incrementally</em> without recalculating everything:",
+        "calculation": "w_new = TypeWeight(new) × TimeWeight(new)<br />weightedImpact_new = impactValue_new × w_new<br /><br />newWeightedSum = totalWeightedSum + weightedImpact_new<br />newTotalWeight   = totalWeight + w_new<br /><br />NormalizedImpact_new = newWeightedSum / newTotalWeight<br />Reliability_new = 100 × (1 − NormalizedImpact_new)"
+      },
+      "section9": {
+        "title": "9) Role of Community Votes & Protections",
+        "description": "Incoming votes (positive/negative) feed into <code>Gravity</code> or <code>Reliability</code>. To prevent manipulation (spam, bots, brigading), several safeguards are in place:",
+        "listitem1": "Votes are weighted by the <strong>level</strong> of voters (a vote from a reliable user weighs more).",
+        "listitem2": "Only authenticated users' votes count for significant weight.",
+        "listitem3": "Rate-limiting and anomaly detection (voting bursts) prevent spam.",
+        "listitem4": "Auditability: all changes are logged (UserActionHistory) for human review."
+      },
+      "section10": {
+        "title": "10) Remarks & Limitations",
+        "listitem1": "The model does not claim to morally “prove” a person: it measures <strong>factual consistency</strong> and <strong>transparency</strong>.",
+        "listitem2": "Parameters (TypeWeight, TimeDecayRate, etc.) are adjustable and will be publicly audited.",
+        "listitem3": "Human oversight remains necessary for ambiguous or sensitive cases— the algorithm assists, it does not replace moderation."
+      },
+      "section11": {
+        "title": "11) Quick Numerical Example",
+        "suppose": "Suppose 2 pieces of evidence for an entity:",
+        "calculation": "Evidence A: TypeWeight = 0.2, TimeWeight = 0.90, Gravity = 60, Reliability = 80<br />impactA = (0.60 × 0.80) = 0.48<br />WeightedImpactA = 0.48 × 0.2 × 0.90 = 0.0864<br /><br />Evidence B: TypeWeight = 0.1, TimeWeight = 0.95, Gravity = 0, Reliability = 70<br />impactB = 1 - 0.70 = 0.30<br />WeightedImpactB = 0.30 × 0.1 × 0.95 = 0.0285<br /><br />weightedSum = 0.0864 + 0.0285 = 0.1149<br />totalWeight = (0.2×0.90) + (0.1×0.95) = 0.18 + 0.095 = 0.275<br /><br />NormalizedImpact = 0.1149 / 0.275 ≈ 0.4178<br />Reliability ≈ 100 × (1 − 0.4178) ≈ 58.2 %",
+        "example": "This example shows how combined evidence produces an interpretable score."
+      }
+    },
+    "legal": {
+      "title": "Legal Notice & Compliance",
+      "description": "<strong>Horkos</strong> is a civic platform dedicated to transparency and verification of public information. Our mission is to allow everyone to contribute to a more informed debate while respecting principles of responsibility and legality.",
+      "responsibilityTitle": "Platform Responsibility and Status",
+      "responsibilityDescription": "Horkos is not a press publisher in the legal sense: published content (facts, comments, verifications) is the responsibility of its authors. Each user agrees to publish accurate, sourced information that complies with applicable laws, particularly regarding defamation and privacy.",
+      "responsibilityLaw": "In accordance with <strong>Article 6, II of Law n°2004-575 of June 21, 2004</strong> on trust in the digital economy (LCEN), Horkos keeps data allowing the identification of content authors (IP address, username, action timestamp) for a legal period of one (1) year. This data is only accessible in case of judicial or administrative request.",
+      "reportTitle": "Reporting System",
+      "reportDescription": "Any user may report content they believe to be unlawful, defamatory, or contrary to community rules. These reports are reviewed carefully by the moderation team, which commits to acting promptly to examine the content and, if necessary, take appropriate measures (removal, suspension, etc.).",
+      "rgpdTitle": "Personal Data Protection (GDPR)",
+      "rgpdDescription": "In accordance with the <strong>General Data Protection Regulation (EU) 2016/679</strong> and the amended <strong>French Data Protection Act</strong>, Horkos is committed to minimal collection of personal data.",
+      "rgpdList1": "The only stored information is email address, username, and IP address (for 1 year).",
+      "rgpdList2": "No sensitive data (origin, opinions, orientation, health, etc.) is collected or processed.",
+      "rgpdList3": "Users may exercise their rights of access, rectification or deletion by contacting Horkos via the dedicated form.",
+      "moderationTitle": "Moderation and Legal Compliance",
+      "moderationDescription": "Published contributions must comply with the Criminal Code and Civil Code, particularly regarding insulting, defamatory or discriminatory statements. Horkos reserves the right to suspend or delete any content contrary to the law or the terms of use.",
+      "footer": "Horkos promotes transparency and individual responsibility.<br />Together, let’s ensure a respectful, free, and lawful civic expression space."
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdate": "Last updated: January 15, 2026",
+      "intro": "At Horkos, we place paramount importance on protecting your privacy. This policy outlines how we handle your personal data.",
+      "collection": {
+        "title": "Data Collection",
+        "content": "We collect only the strictly necessary data: <br/>• Your email address (for account creation).<br/>• Your username.<br/>• Your contributions (added facts, sources, votes).<br/>• Technical connection data (anonymized IP address) for security purposes."
+      },
+      "usage": {
+        "title": "Use of Data",
+        "content": "Your data is used exclusively to:<br/>1. Manage your access to the platform.<br/>2. Attribute your contributions and calculate your reliability score.<br/>3. Prevent abuse and automated attacks (spam/bots).<br/><br/>Under no circumstances is your data sold to third parties or used for advertising profiling."
+      },
+      "storage": {
+        "title": "Storage and Security",
+        "content": "Your data is stored as long as your account is active. We implement technical security measures (encryption, restricted access) to protect your information against any unauthorized access."
+      },
+      "rights": {
+        "title": "Your Rights",
+        "content": "In accordance with the GDPR, you have the right to access, rectify, and completely delete your data. You may also request an export of your contributions."
+      },
+      "contact": {
+        "title": "Contact Us",
+        "content": "For any questions regarding your personal data, you can contact us via email or through our official Discord server."
+      }
+    },
+    "transparency": {
+      "title": "Financial Transparency",
+      "intro": "True to its mission of <strong>transparency</strong> and <strong>responsibility</strong>, <strong>Horkos</strong> is committed to making its operating costs and budget choices public. The project is run by a non-profit association whose accounts are kept rigorously and made available to its members.",
+      "hostingTitle": "Hosting and Infrastructure",
+      "hostingText1": "The site is currently hosted on an <strong>Azure B1</strong> (Basic Tier) server, costing about <strong>€60 / month</strong>. This configuration suits moderate traffic, but an upgrade to an <strong>Azure P0v3</strong> (Premium Tier) server — estimated at around <strong>€105 / month</strong> — will become necessary as traffic increases. The resource is shared for the server and the website; depending on traffic, resource duplication may be considered.",
+      "hostingText2": "The database runs on <strong>Azure SQL Database</strong> (Basic tier), costing about <strong>€5 / month</strong> initially. This may rise to <strong>€20–40 / month</strong> depending on data volume and query frequency. Automated backups and a continuity plan are included to ensure information security and availability.",
+      "toolsTitle": "Digital Tools and Services",
+      "toolsDescription": "For communication and internal management, the association uses various tools and services:",
+      "toolsList1": "<strong>Microsoft Outlook / Office 365 licenses:</strong> about €10 / user / month",
+      "toolsList2": "<strong>Domain name & DNS (OVH, Azure DNS):</strong> €10 to €15 / year",
+      "toolsList3": "<strong>SSL certificates / Web security:</strong> free via Let's Encrypt, with paid options possible",
+      "toolsList4": "<strong>Collaborative tools</strong> (Azure DevOps): free with limited use, or €5–15 / user / month",
+      "toolsList5": "<strong>External storage & backups (Azure Blob Storage)</strong> for entity photos: €2–10 / month depending on volume",
+      "administrationTitle": "Administrative and Banking Fees",
+      "administrationText1": "As an association, Horkos has a professional bank account to receive donations and manage expenses. Related fees range between <strong>€8 and €15 / month</strong> depending on the bank.",
+      "administrationText2": "Management fees may also apply for online payment services (e.g. Stripe, HelloAsso, PayPal), averaging <strong>1.5 to 2.5%</strong> of received donations.",
+      "insuranceTitle": "Insurance and Legal Protection",
+      "insuranceText1": "Given the project’s nature—publication of facts and verifications sometimes involving public figures—it's essential to provide <strong>liability insurance</strong> and <strong>legal protection</strong>. These cover defence costs in case of disputes or legal proceedings. Estimated cost for such an association ranges from <strong>€150 to €400 / year</strong>.",
+      "insuranceText2": "We also aim to build a <strong>precautionary reserve</strong> to cover potential legal or expert fees should the association face litigation.",
+      "developmentTitle": "Development, Maintenance and Upgrades",
+      "developmentDescription": "The platform’s development currently relies on volunteer and community work. However, in the future, expenses may be made for:",
+      "developmentList1": "<strong>Technical maintenance</strong> (updates, security, performance) — about €50 to €100 / month",
+      "developmentList2": "<strong>New feature development</strong> (API, fact-checking AI, mobile interface)",
+      "developmentList3": "<strong>Human review and moderation</strong> — potentially compensated depending on resources",
+      "independencyTitle": "Funding and Independence",
+      "independencyText1": "Horkos is funded exclusively by <strong>individual donations</strong> and <strong>voluntary contributions</strong>. No advertising is displayed on the platform, and no user data is monetised.",
+      "independencyText2": "The goal is to maintain <strong>complete independence</strong> from any party, company, or interest group, and ensure sustainable operation grounded in trust and transparency.",
+      "footer": "<em>Horkos strives to be a model of transparency — financial, technical and ethical.<br /> Every euro spent must strengthen the project’s civic mission: defending truth and public accountability.</em>"
+    },
+    "technical": {
+      "title": "Technical Aspects",
+      "description": "This tab presents the essential technical aspects that ensure Horkos’ security, performance and reliability. Our goal is to guarantee a stable, secure and regulation-compliant platform.",
+      "architecture": {
+        "title": "Architecture and Hosting",
+        "list1": "Main server: <strong>Azure B1</strong>, scalable to <strong>P0v3</strong> for more performance if needed.",
+        "list2": "Database: <strong>Azure SQL Database</strong>, automatic scaling depending on data volume.",
+        "list3": "Front-End Stack: <strong>Vue 3</strong>, Node 22, <strong>Vuetify TypeScript</strong>, Pinia Store, Vite build, Axios queries",
+        "list4": "Back-End Stack: <strong>Asp .NET Core</strong>, .NET 8",
+        "list5": "Daily backups and replication to ensure service continuity.",
+        "list6": "Possibility of horizontal or vertical scaling depending on visitor load."
+      },
+      "security": {
+        "title": "Security",
+        "list1": "Secure authentication via <strong>OAuth2</strong> with <strong>access tokens</strong> (2h validity) and <strong>refresh tokens</strong> for automatic renewal.",
+        "list2": "Password encryption.",
+        "list3": "HTTPS required for all communications.",
+        "list4": "Logging and detailed auditing of actions to trace any content modification."
+      },
+      "data": {
+        "title": "Data Management",
+        "list1": "GDPR compliance: only necessary data is stored (IP, email, username).",
+        "list2": "Timestamping and retention of actions for 1 year to comply with LCEN and editorial responsibility.",
+        "list3": "Possible anonymization for internal statistical analysis."
+      },
+      "performance": {
+        "title": "Performance and Scalability",
+        "list1": "Ability to handle increasing numbers of visitors and contributions.",
+        "list2": "Continuous monitoring of resources: CPU, RAM, I/O and SQL queries.",
+        "list3": "Possibility to upgrade the server and database as needed."
+      },
+      "development": {
+        "title": "Maintenance and Development",
+        "list1": "Git used for source code management.",
+        "list2": "Azure DevOps for branch merges, pull request required on the main branch.",
+        "list3": "YAML pipeline for automatic deployment to servers.",
+        "list4": "CI/CD for secure deployments.",
+        "list5": "Coding and database best practices."
+      },
+      "footer": "<em>These technical aspects allow Horkos to offer a secure, stable and transparent platform where users can contribute and verify information with full confidence.</em>"
+    }
+  },
+  "groupview": {
+    "search": "Search an entity...",
+    "entities": "Entities",
+    "associate": "Associate an entity",
+    "loadingentity": "Loading entities...",
+    "loadinggroup": "Loading group..."
+  },
+  "profileview": {
+    "usercard": {
+      "modifyProfile": "Edit profile",
+      "registered": "Registered since"
+    },
+    "progressioncard": {
+      "title": "Progression",
+      "level": "Level",
+      "norank": "No rank",
+      "currentrank": "Current rank",
+      "nextrank": "Next rank",
+      "maxrank": "You are at the maximum level",
+      "badges": "Badges"
+    },
+    "statisticscard": {
+      "title": "Statistics",
+      "contributions": "Contributions",
+      "comments": "Comments",
+      "recentcontributions": "Recent contributions",
+      "nocontribution": "No recent contribution."
+    }
+  }
+}

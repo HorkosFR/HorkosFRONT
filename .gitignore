@@ -1,0 +1,65 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Dependency directories
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+coverage/
+
+# Local env files
+.env
+.env.local
+.env.*.local
+
+# Cache
+.cache/
+temp/
+tmp/
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+
+# Yarn / npm / pnpm logs and caches
+.yarn-integrity
+.yarn/
+.pnp.*
+.pnpm-debug.log
+.npm/
+
+# VS Code testing
+.history/
+
+# Optional eslint / stylelint caches
+.eslintcache
+.stylelintcache
+
+# Local test coverage
+coverage/
+*.lcov
+
+# Mac system files
+.DS_Store
