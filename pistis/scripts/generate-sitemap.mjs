@@ -31,9 +31,9 @@ async function generate () {
 </urlset>`
 
     fs.writeFileSync('./public/sitemap.xml', sitemap)
-    console.log(`✅ Sitemap généré avec ${routes.length} entités.`)
+    console.log(`Sitemap généré avec ${routes.length} entités.`)
   } catch (error) {
-    console.error('❌ Erreur lors de la génération du sitemap:', error.message)
+    console.error('Erreur lors de la génération du sitemap:', error.message)
   }
 }
 

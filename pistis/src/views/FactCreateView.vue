@@ -614,7 +614,6 @@
       editor.chain().focus().extendMarkRange('link').unsetLink().run()
       return
     }
-    console.log(factForm.value.source)
     addSourceLinkDialog.value = true
   }
 

@@ -47,7 +47,6 @@ api.interceptors.response.use(
 
       try {
         const newToken = await userTokenService.renewAccessToken()
-        console.log('Nouveau token reçu :', newToken)
         if (!newToken) {
           localStorage.removeItem('accessToken')
           localStorage.removeItem('refreshToken')

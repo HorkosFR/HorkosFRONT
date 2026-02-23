@@ -538,7 +538,7 @@
       await FactService.updateFact(id.value, payload)
       router.push({ name: 'Fact', params: { id: id.value } })
     } catch (error) {
-      console.error('❌ Erreur mise à jour fact:', error)
+      console.error('Erreur mise à jour fact:', error)
     } finally {
       loading.value = false
     }
