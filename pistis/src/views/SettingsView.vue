@@ -178,35 +178,6 @@
     }
   }
 
-  /*
-  async function uploadAvatar () {
-    if (!file.value) return
-
-    try {
-      loading.value = true
-      const resizedBlob = await resizeImage(file.value, 300)
-      const fileName = `user_${auth.userId}.webp`
-
-      const { error: uploadError } = await supabase.storage
-        .from('avatars')
-        .upload(fileName, resizedBlob, {
-          upsert: true,
-          contentType: 'image/webp',
-        })
-
-      if (uploadError) throw uploadError
-
-      const { data } = supabase.storage.from('avatars').getPublicUrl(fileName)
-      avatarUrl.value = data.publicUrl
-    } catch (error) {
-      alert('Erreur lors de l\'upload !')
-      console.error(error)
-    } finally {
-      loading.value = false
-    }
-  }
-    */
-
   async function updatePassword () {
     if (password.value.confirmPassword == password.value.newPassword) {
       const payload: any = {
