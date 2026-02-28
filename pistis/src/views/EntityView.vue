@@ -373,6 +373,9 @@ thumb-size="0"
         auth.isAuthenticated ? voteService.getVoteByCommentCurrentUser(entityId.value) : [],
       ])
       entity.value = entityData
+      if (entityData.officialLinks) {
+        entity.value.links = entityData.officialLinks.split(';')
+      }
       commentVotes.value = commentVoteData
       facts.value = Array.isArray(entityData.factEntities) ? entityData.factEntities.map(fe => fe.fact) : []
       for (const f of facts.value) {
