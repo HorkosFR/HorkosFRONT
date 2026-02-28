@@ -297,7 +297,7 @@
         officialLinks: form.value.links ? form.value.links.join(';') : '',
         birthDate: form.value.birthDate ? new Date(form.value.birthDate) : null,
         foundedDate: form.value.foundedDate ? new Date(form.value.foundedDate) : null,
-        imageUrl: photoPreview.value ?? null,
+        imageUrl: form.value.imageUrl ?? null,
       }
       await EntityService.updateEntity(entityId.value, payload)
       router.push({ name: 'Entity', params: { id: entityId.value } })

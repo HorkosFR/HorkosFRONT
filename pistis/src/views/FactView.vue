@@ -140,6 +140,9 @@
       fact.value.tabTags = fact.value.tags.split(';') as FactTag[]
       if (!fact.value) return
       entity.value = await EntityService.getEntityById(entityId.value)
+      if (entity.value.officialLinks) {
+        entity.value.links = entity.value.officialLinks.split(';')
+      }
       comments.value = await CommentService.getCommentsByEntityId(factId.value)
       if (auth.isAuthenticated) {
         votes.value = await voteService.getVoteByTargetIdCurrentUser(factId.value)

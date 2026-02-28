@@ -132,8 +132,6 @@
         </div>
       </div>
 
-      <v-divider class="my-3" />
-
       <div v-if="entity.links && entity.links.length > 0">
         <v-list density="compact">
           <v-list-item v-for="(link, i) in entity.links" :key="i" class="py-1">
@@ -144,6 +142,7 @@
           </v-list-item>
         </v-list>
       </div>
+      <v-divider class="my-3" />
       <div>
         <div class="d-flex justify-space-between align-center">
           <div class="info-label d-flex align-center">
