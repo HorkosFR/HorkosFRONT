@@ -1,0 +1,35 @@
+pr:
+  branches:
+    include:
+      - Dev
+      - main
+
+trigger: none
+
+pool:
+  vmImage: "windows-latest"
+
+variables:
+  nodeVersion: "22.x"
+  app_location: "pistis"
+
+stages:
+  - stage: Validation
+    displayName: "Validation Frontend"
+    jobs:
+      - job: BuildCheck
+        displayName: "Check Compilation Vue.js"
+        steps:
+          - task: NodeTool@0
+            displayName: "Install Node.js $(nodeVersion)"
+            inputs:
+              versionSpec: $(nodeVersion)
+              checkLatest: true
+
+          - powershell: |
+              cd $(app_location)
+              echo "Starting npm install..."
+              npm ci
+              echo "Starting build check..."
+              npm run build:staging
+            displayName: "npm ci & build check"
