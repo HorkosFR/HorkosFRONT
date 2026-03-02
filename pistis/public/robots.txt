@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+Disallow: /admin
+Disallow: /settings
+Disallow: /profile
+Disallow: /edit-profile
+
+Sitemap: https://horkos.fr/sitemap.xml
