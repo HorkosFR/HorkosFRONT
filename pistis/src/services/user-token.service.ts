@@ -41,7 +41,7 @@ export default {
   },
 
   async renewAccessToken (): Promise<string | null> {
-    const token = localStorage.getItem('refreshToken')
+    const token = localStorage.getItem('accessToken')
     if (!token) {
       return null
     }
