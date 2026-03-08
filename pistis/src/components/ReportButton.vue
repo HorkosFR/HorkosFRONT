@@ -38,6 +38,7 @@
             <v-textarea
               v-model="form.comment"
               auto-grow
+              required
               :label="t('report.comment')"
               rows="2"
             />

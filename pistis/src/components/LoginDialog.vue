@@ -20,6 +20,7 @@
             required
             type="password"
             variant="outlined"
+            @keyup.enter="onLogin"
           />
           <div class="d-flex justify-space-between align-center mt-2 px-1">
             <v-btn
@@ -90,7 +91,14 @@
     }
   }
 
+  function closeModal() {
+    model.value = false
+    email.value = ''
+    password.value = ''
+  }
+
   function onCancel () {
+    closeModal()
     emit('confirm')
   }
 </script>
