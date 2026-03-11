@@ -2,7 +2,7 @@
   <v-container class="pa-6">
     <v-row class="d-flex justify-center">
       <v-col class="d-flex justify-center" cols="12" md="6">
-        <v-card v-if="!registered" class="pa-6 rounded-lg elevation-3" style="max-width: 600px; width: 100%;">
+        <v-card v-if="!updated" class="pa-6 rounded-lg elevation-3" style="max-width: 600px; width: 100%;">
           <v-card-title>
             {{ $t('forgotPassword.title') }}
           </v-card-title>
@@ -38,9 +38,6 @@
               </v-row>
             </v-card-text>
             <v-card-actions class="justify-end">
-              <v-btn color="secondary" @click="resetForm">
-                {{ $t('register.reinit') }}
-              </v-btn>
               <v-btn color="primary" :disabled="!isValid || loading" type="submit">
                 <v-progress-circular
                   v-if="loading"
@@ -59,7 +56,7 @@
             {{ $t('forgotPassword.updatedTitle') }}
           </v-card-title>
           <p class="text-body-1 mb-6">
-            {{ $t('forgotPassword.updatedTitle') }}
+            {{ $t('forgotPassword.updatedMessage') }}
           </p>
         </v-card>
       </v-col>
@@ -91,11 +88,6 @@
     required: (v: string) => !!v || 'Ce champ est requis',
     password: (v: string) => v.length >= 6 || 'Minimum 6 caractères',
     matchPassword: (v: string) => v === form.value.password || 'Les mots de passe ne correspondent pas',
-  }
-
-  function resetForm () {
-    form.value = { password: '', confirmPassword: '' }
-    formRef.value?.resetValidation()
   }
 
   async function onSubmit () {
