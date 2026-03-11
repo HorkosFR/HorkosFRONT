@@ -3,7 +3,7 @@
     <v-card class="pa-3" elevation="3">
       <v-card-title class="d-flex align-center title-root">
         <v-btn
-          v-if="auth.isAuthenticated"
+          v-if="auth.isAdministrator"
           color="primary"
           :disabled="preview"
           icon="mdi-pencil-outline"
@@ -212,7 +212,7 @@
               </a>
               <v-list-item-subtitle class="text-disabled mt-1">
                 <v-btn
-                  v-if="auth.isAuthenticated"
+                  v-if="auth.isAdministrator"
                   color="primary"
                   :disabled="preview"
                   icon="mdi-pencil-outline"

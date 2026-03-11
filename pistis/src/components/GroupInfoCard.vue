@@ -26,7 +26,7 @@
           />
         </div>
         <v-btn
-          v-if="auth.isAuthenticated"
+          v-if="auth.isAdministrator"
           color="primary"
           icon="mdi-pencil-outline"
           size="medium"
