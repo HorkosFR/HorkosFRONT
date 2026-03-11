@@ -31,12 +31,12 @@ const routes: RouteRecordRaw[] = [
   { path: '/settings', name: 'Settings', component: SettingsView, meta: { title: 'Paramètres', requiresAuth: true } },
   { path: '/profile', name: 'Profile', component: ProfileView, meta: { title: 'Profil', requiresAuth: true } },
   { path: '/create-entity', name: 'EntityCreate', component: EntityCreateView, meta: { title: 'Créer Entité', requiresAuth: true } },
-  { path: '/entity/:id/edit', name: 'EntityUpdate', component: EntityUpdateView, meta: { title: 'Modifier Entité', requiresAuth: true } },
+  { path: '/entity/:id/edit', name: 'EntityUpdate', component: EntityUpdateView, meta: { title: 'Modifier Entité', requiresAdmin: true } },
   { path: '/entity/:id', name: 'Entity', component: EntityView, meta: { title: 'Entité', requiresAuth: false } },
   { path: '/group/:id', name: 'Group', component: GroupView, meta: { title: 'Groupe', requiresAuth: false } },
   { path: '/entity/:entityId/fact/:id', name: 'Fact', component: FactView, meta: { title: 'Fait', requiresAuth: false } },
   { path: '/entity/:entityId/create-fact/', name: 'FactCreate', component: FactCreateView, meta: { title: 'Créer Fait', requiresAuth: true } },
-  { path: '/entity/:entityId/fact/:id/edit', name: 'FactUpdate', component: FactUpdateView, meta: { title: 'Modifier Fait', requiresAuth: true } },
+  { path: '/entity/:entityId/fact/:id/edit', name: 'FactUpdate', component: FactUpdateView, meta: { title: 'Modifier Fait', requiresAdmin: true } },
   { path: '/entity/:entityId/fact/:id/translate', name: 'FactTranslate', component: FactTranslateView, meta: { title: 'Traduire Fait', requiresAuth: true } },
 ]
 

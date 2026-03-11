@@ -35,7 +35,7 @@
           variant="plain"
         />
         <v-btn
-          v-if="entityView && auth.isAuthenticated"
+          v-if="entityView && auth.isAdministrator"
           color="primary"
           :disabled="preview"
           icon="mdi-pencil-outline"
