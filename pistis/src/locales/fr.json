@@ -393,7 +393,7 @@
     "invalidToken": "Le lien est invalide ou a expiré.",
     "needHelp": "Besoin d'aide ?",
     "helpText": "Si vous rencontrez des difficultés, notre équipe est là pour vous.",
-    "support": "contact@horkos.fr"
+    "support": "contact{'@'}horkos.fr"
   },
   "register": {
     "title": "Creer un compte",
@@ -605,7 +605,7 @@
             "description": "Chaque utilisateur dispose des droits suivants :",
             "listItems": [
               "<strong>Accès</strong> à ses données.",
-              "<strong>Rectification</strong> ou <strong>suppression</strong> de ses données en faisant la demande à contact@horkos.fr.",
+              "<strong>Rectification</strong> ou <strong>suppression</strong> de ses données en faisant la demande à contact{'@'}horkos.fr.",
               "<strong>Portabilité</strong> de ses contributions (dans la limite des droits des autres utilisateurs)."
             ]
           },
@@ -622,7 +622,7 @@
 
       "answerRightsSections": {
         "sectionTitle": "5. Droit de réponse",
-        "description": "Conformément à la <strong>loi du 29 juillet 1881</strong>, toute personne citée sur Horkos peut demander un <strong>droit de réponse</strong> en écrivant à <strong>contact@horkos.fr</strong>.",
+        "description": "Conformément à la <strong>loi du 29 juillet 1881</strong>, toute personne citée sur Horkos peut demander un <strong>droit de réponse</strong> en écrivant à <strong>contact{'@'}horkos.fr</strong>.",
         "listItems": [
           "La demande sera traitée <strong>dans les plus bref délais</strong>.",
           "La réponse sera publiée <strong>à proximité du contenu concerné</strong> dans un délai raisonnable."
@@ -666,7 +666,7 @@
         "sectionTitle": "10. Contact",
         "description": "Pour toute question :",
         "listItems": [
-          "<strong>Email</strong> : contact@horkos.fr",
+          "<strong>Email</strong> : contact{'@'}horkos.fr",
           "<strong>Formulaire de contact</strong> : <a href='#'>Lien</a>"
         ],
         "footer": "<em>Ces règles d’utilisation ont été mises à jour le 13/03/2026. Horkos invite les utilisateurs à les consulter régulièrement.</em>"
@@ -877,7 +877,7 @@
       "title": "Mentions légales & conformité",
       "description": "<strong>Horkos</strong> est une plateforme citoyenne dédiée à la transparence et à la vérification de l’information publique (association loi 1901).",
       "contactTitle": "Éditeur et contact",
-      "contactDescription": "<strong>Association Horkos</strong><br />Email : contact@horkos.fr<br />Directeur de publication : Baptiste HECTOR, président de l’association Horkos.<br />Numéro RNA : Association en cours de création.<br />Hébergeur : Microsoft France – 37 Quai du Président Roosevelt, 92130 Issy-les-Moulineaux.",
+      "contactDescription": "<strong>Association Horkos</strong><br />Email : contact{'@'}horkos.fr<br />Directeur de publication : Baptiste HECTOR, président de l’association Horkos.<br />Numéro RNA : Association en cours de création.<br />Hébergeur : Microsoft France – 37 Quai du Président Roosevelt, 92130 Issy-les-Moulineaux.",
       "responsibilityTitle": "Responsabilité et statut de la plateforme",
       "responsibilityDescription": "<strong>Horkos</strong> n’est pas un éditeur de presse : les contenus (faits, commentaires, vérifications) relèvent de la responsabilité exclusive de leurs auteurs. Chaque utilisateur s’engage à publier des informations exactes, sourcées et conformes à la loi (notamment en matière de diffamation, vie privée, et discrimination).<br /><br />Statut d’hébergeur : Conformément à l’article 6-I-2 de la LCEN, Horkos agit en tant qu’hébergeur. Les données permettant d’identifier les auteurs (IP, identifiant, horodatage) sont conservées 1 an et ne sont accessibles qu'en cas de réquisition judiciaire.<br /><br />Retrait des contenus illicites : Tout contenu manifestement illicite signalé via ce formulaire sera retiré sous 48h (article 6-I-5 LCEN).",
       "reportTitle": "Système de signalement",
@@ -886,11 +886,11 @@
       "rgpdDescription": "Conformément au <strong>Règlement (UE) 2016/679</strong> relatif à la protection des données (RGPD) et à la <strong>loi Informatique et Libertés</strong> modifiée, <strong>Horkos</strong> s’engage à une collecte minimale des données personnelles.",
       "rgpdList1": "Les seules informations conservées sont l’adresse e-mail, le nom d’utilisateur et l’adresse IP (pour 1 an).",
       "rgpdList2": "Aucune donnée sensible (origine, opinions, orientation, santé, etc.) n’est collectée ni traitée.",
-      "rgpdList3": "Les utilisateurs peuvent exercer leurs droits d’accès, de rectification ou de suppression en contactant <strong>Horkos</strong> à contact@horkos.fr.",
+      "rgpdList3": "Les utilisateurs peuvent exercer leurs droits d’accès, de rectification ou de suppression en contactant <strong>Horkos</strong> à contact{'@'}horkos.fr.",
       "moderationTitle": "Modération et respect de la loi",
       "moderationDescription": "Les contributions publiées doivent respecter les dispositions du Code pénal et du Code civil, notamment en matière de propos haineux, diffamatoires, discriminatoires, injurieux, atteinte à la vie privée et de désinformation avérée. <strong>Horkos</strong> se réserve le droit de suspendre ou supprimer tout contenu illégale ou aux conditions générales d’utilisation, ainsi que de suspendre les compte en cas de manquements.",
       "answerTitle": "Droit de réponse",
-      "answerDescription": "Conformément à la loi du 29 juillet 1881, toute personne citée sur Horkos peut exercer son droit de réponse en écrivant à contact@horkos.fr. La demande sera traitée dans les plus bref délais.",
+      "answerDescription": "Conformément à la loi du 29 juillet 1881, toute personne citée sur Horkos peut exercer son droit de réponse en écrivant à contact{'@'}horkos.fr. La demande sera traitée dans les plus bref délais.",
       "updateTitle": "Mise à jour",
       "updateDescription": "Ces mentions légales ont été mises à jour le 13/03/2026. Horkos se réserve le droit de les modifier pour se conformer à la législation en vigueur.",
       "footer": "<em><strong>Horkos</strong> favorise la transparence et la responsabilité individuelle.<br />Ensemble, veillons à un espace d’expression citoyenne respectueux, libre et conforme à la loi.</em>"

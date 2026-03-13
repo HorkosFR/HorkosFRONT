@@ -596,7 +596,7 @@
             "description": "Each user has the following rights:",
             "listItems": [
               "<strong>Access</strong> to their data.",
-              "<strong>Rectification</strong> or <strong>deletion</strong> of their data by contacting us at contact@horkos.fr.",
+              "<strong>Rectification</strong> or <strong>deletion</strong> of their data by contacting us at contact{'@'}horkos.fr.",
               "<strong>Portability</strong> of their contributions (subject to the rights of other users)."
             ]
           },
@@ -613,7 +613,7 @@
 
       "answerRightsSections": {
         "sectionTitle": "5. Right of Reply",
-        "description": "Under the <strong>law of July 29, 1881</strong>, any person mentioned on Horkos may request a <strong>right of reply</strong> by writing to <strong>contact@horkos.fr</strong>.",
+        "description": "Under the <strong>law of July 29, 1881</strong>, any person mentioned on Horkos may request a <strong>right of reply</strong> by writing to <strong>contact{'@'}horkos.fr</strong>.",
         "listItems": [
           "The request will be processed <strong>within 48 hours</strong>.",
           "The reply will be published <strong>near the content in question</strong> within a reasonable timeframe."
@@ -657,7 +657,7 @@
         "sectionTitle": "10. Contact",
         "description": "For any questions:",
         "listItems": [
-          "<strong>Email</strong>: contact@horkos.fr",
+          "<strong>Email</strong>: contact{'@'}horkos.fr",
           "<strong>Contact form</strong>: <a href='#'>Link</a>"
         ],
         "footer": "<em>These Terms of Use were last updated on [date]. Horkos encourages users to review them regularly.</em>"
@@ -868,7 +868,7 @@
       "title": "Legal Notices & Compliance",
       "description": "<strong>Horkos</strong> is a civic platform dedicated to transparency and the verification of public information (a non-profit association under the French law of 1901).",
       "contactTitle": "Publisher and Contact",
-      "contactDescription": "<strong>Horkos Association</strong><br />Email: contact@horkos.fr<br />Publisher: Baptiste HECTOR, President of the Horkos Association.<br />RNA Number: Association in the process of being established.<br />Host: Name of the host, e.g.: Microsoft France – 37 Quai du Président Roosevelt, 92130 Issy-les-Moulineaux.",
+      "contactDescription": "<strong>Horkos Association</strong><br />Email: contact{'@'}horkos.fr<br />Publisher: Baptiste HECTOR, President of the Horkos Association.<br />RNA Number: Association in the process of being established.<br />Host: Name of the host, e.g.: Microsoft France – 37 Quai du Président Roosevelt, 92130 Issy-les-Moulineaux.",
       "responsibilityTitle": "Responsibility and Platform Status",
       "responsibilityDescription": "<strong>Horkos</strong> is not a press publisher: the content (facts, comments, verifications) is the sole responsibility of their authors. Each user commits to publishing accurate, sourced, and law-compliant information (particularly regarding defamation, privacy, and discrimination).<br /><br />Hosting Provider Status: In accordance with Article 6-I-2 of the LCEN, Horkos acts as a hosting provider. Data allowing the identification of authors (IP, identifier, timestamp) are kept for 1 year and are only accessible in the event of a judicial requisition.<br /><br />Removal of Illegal Content: Any clearly illegal content reported via this form will be removed within 48 hours (Article 6-I-5 LCEN).",
       "reportTitle": "Reporting System",
@@ -877,11 +877,11 @@
       "rgpdDescription": "In accordance with <strong>Regulation (EU) 2016/679</strong> on data protection (GDPR) and the amended <strong>French Data Protection Act</strong>, <strong>Horkos</strong> is committed to minimal collection of personal data.",
       "rgpdList1": "The only information retained is the email address, username, and IP address (for 1 year).",
       "rgpdList2": "No sensitive data (origin, opinions, orientation, health, etc.) is collected or processed.",
-      "rgpdList3": "Users can exercise their rights to access, rectify, or delete their data by contacting <strong>Horkos</strong> at contact@horkos.fr.",
+      "rgpdList3": "Users can exercise their rights to access, rectify, or delete their data by contacting <strong>Horkos</strong> at contact{'@'}horkos.fr.",
       "moderationTitle": "Moderation and Compliance with the Law",
       "moderationDescription": "Published contributions must comply with the provisions of the Penal Code and Civil Code, particularly regarding hate speech, defamation, discrimination, insults, invasion of privacy, and verified misinformation. <strong>Horkos</strong> reserves the right to suspend or remove any illegal content or content that violates the terms of use, as well as to suspend accounts in case of violations.",
       "answerTitle": "Right of Reply",
-      "answerDescription": "In accordance with the law of July 29, 1881, any person mentioned on Horkos can exercise their right of reply by writing to contact@horkos.fr. The request will be processed as soon as possible.",
+      "answerDescription": "In accordance with the law of July 29, 1881, any person mentioned on Horkos can exercise their right of reply by writing to contact{'@'}horkos.fr. The request will be processed as soon as possible.",
       "updateTitle": "Update",
       "updateDescription": "These legal notices were updated on 03/13/2026. Horkos reserves the right to modify them to comply with current legislation.",
       "footer": "<em><strong>Horkos</strong> promotes transparency and individual responsibility.<br />Together, let's ensure a respectful, free, and law-compliant civic expression space.</em>"
