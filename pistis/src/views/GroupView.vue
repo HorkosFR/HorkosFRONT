@@ -149,6 +149,10 @@
       if (isLoading.value) return 'Horkos | Chargement...'
       return group.value?.name ? `Horkos | Fiabilité globale - ${group.value.name}` : 'Horkos | Groupe'
     }),
+    description: computed(() => {
+      if (isLoading.value) return 'Horkos | Chargement...'
+      return group.value.description ? `Horkos | ${group.value.description}` : 'Horkos | Groupe'
+    }),
     script: [
       {
         type: 'application/ld+json',

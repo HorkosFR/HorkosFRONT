@@ -112,6 +112,10 @@
       if (isLoading.value) return 'Horkos | Chargement...'
       return entity.value?.name && fact.value?.type ? `Horkos | ${getFactLabel(fact.value.type)} de ${entity.value.name}` : 'Horkos | Fait'
     }),
+    description: computed(() => {
+      if (isLoading.value) return 'Horkos | Chargement...'
+      return fact.value.title ? `Horkos | ${fact.value.title}` : 'Horkos | Fait'
+    }),
     script: [
       {
         type: 'application/ld+json',
