@@ -508,10 +508,162 @@
       "titleVision": "Our vision",
       "p9": "We believe that an honest society begins with clarity. Transparency is a shared responsibility, a link between individuals and the institutions they choose to trust."
     },
-    "cgu": {
-      "title": "Terms of Use",
-      "body": "<strong>Horkos</strong> is a civic platform dedicated to the verification of public facts and to information transparency. Its goal is to give everyone the means to document, contextualize, and collectively verify facts related to public figures, organizations, or entities. <strong>Horkos</strong> is neither a media outlet, nor a social network, nor a space for activist expression. The project is built on rigor, neutrality, and individual responsibility, in service of a more informed public debate.<br/><br/>By using the platform, each user acknowledges full responsibility for the content they publish, whether it consists of facts, verifications, sources, or comments. All contributions must be made in good faith and in compliance with applicable laws, particularly those relating to defamation, insult, privacy protection, and the presumption of innocence. Users are expected to clearly distinguish verifiable facts from personal opinions, which should not be presented as objective information.<br/><br/>Behavior within the community must remain respectful at all times. Disagreement is legitimate and part of the normal functioning of a collective fact-checking space, but it cannot justify personal attacks, contemptuous remarks, or attempts to discredit others. Discussions should focus on content and sources, not on presumed intentions or on contributors themselves. Any use of the platform for harassment, propaganda, commercial promotion, or manipulation runs counter to the spirit of <strong>Horkos</strong>.<br/><br/>Certain types of content are strictly prohibited. These include unsourced accusations, information that is clearly false or misleading, the dissemination of personal or sensitive data, as well as any form of spam or disguised advertising. Attempts to manipulate the system, whether through votes, scores, or discussions, undermine the integrity of the project and will not be tolerated.<br/><br/><strong>Horkos</strong> provides a reporting system that allows any user to alert the moderation team to problematic, inappropriate, or clearly erroneous content. Reports are reviewed carefully and may lead, depending on the situation, to a correction, removal of the content, or measures taken against the account concerned. Moderation is not intended to censor opinions, but to ensure the quality, legality, and clarity of published information.<br/><br/>In the event of serious or repeated violations of the platform’s rules, <strong>Horkos</strong> reserves the right to restrict access to certain features, temporarily suspend an account, or permanently delete it. These decisions are made in a proportionate manner, with the aim of protecting the community and the project as a whole.<br/><br/>Use of <strong>Horkos</strong> implies full acceptance of these rules, which may evolve over time in order to adapt to the legal framework, community practices, and user feedback."
-    },
+  "cgu": {
+    "title": "Terms of Use",
+    "sections": {
+      "missionSections": {
+        "sectionTitle": "1. Purpose and Mission of the Platform",
+        "description": "<strong>Horkos</strong> is a civic platform dedicated to the collaborative verification of public facts, transparent archiving, and sourced documentation. It allows users to:",
+        "listItems": [
+          "Document facts related to public figures or organizations.",
+          "Collectively verify information by citing reliable sources.",
+          "Contextualize public statements or actions."
+        ],
+        "additionalDescription": "<strong>Horkos is neither a media outlet, nor a social network, nor an activist space.</strong> It is based on principles of <strong>neutrality, rigor, and individual responsibility</strong>, serving to foster an informed public debate."
+      },
+
+      "repsonsibilitySections": {
+        "sectionTitle": "2. User Responsibilities",
+        "subSections": {
+          "content": {
+            "subSectionTitle": "2.1 Published Content",
+            "description": "Each user is <strong>fully responsible</strong> for the content they publish (facts, verifications, comments, sources). Contributions must:",
+            "listItems": [
+              "Be published in <strong>good faith</strong>, with <strong>verifiable sources</strong> (links, archives, official documents).",
+              "Comply with <strong>applicable laws</strong> (including those related to defamation, insults, privacy, and presumption of innocence).",
+              "Clearly distinguish between <strong>objective facts</strong> and <strong>personal opinions</strong> (the latter must not be presented as verified information)."
+            ]
+          },
+          "forbidden": {
+            "subSectionTitle": "2.2 Strict Prohibitions",
+            "description": "The following are prohibited on Horkos:",
+            "listItems": [
+              "<strong>Unsourced accusations</strong> or <strong>clearly false information</strong>.",
+              "Sharing <strong>personal data</strong> (addresses, phone numbers, private emails, etc.).",
+              "<strong>Hateful, discriminatory, insulting, or defamatory</strong> remarks.",
+              "<strong>Harassment</strong>, <strong>propaganda</strong>, or any attempt at <strong>manipulation</strong> (rigged votes, spam, disguised advertising).",
+              "<strong>Illegal content</strong> (incitement to violence, glorification of crimes, etc.)."
+            ]
+          },
+          "punishment": {
+            "subSectionTitle": "2.3 Sanctions",
+            "description": "In case of violation, Horkos may:",
+            "listItems": [
+              "Correct or remove problematic content.",
+              "Restrict access to certain features (e.g., publishing, commenting).",
+              "Temporarily suspend or permanently delete the account in question."
+            ],
+            "additionalDescription": "Decisions are made in a <strong>proportional</strong> manner after review by the moderation team."
+          }
+        }
+      },
+
+      "roleSections": {
+        "sectionTitle": "3. Role of Horkos: Hosting Provider Status (LCEN)",
+        "description": "Horkos acts as a <strong>hosting provider</strong> under <strong>Article 6-I-2 of the LCEN</strong>. It is not responsible for content published by users, provided that:",
+        "listItems": [
+          "It promptly removes (within 48 hours) any <strong>clearly illegal content</strong> after notification.",
+          "It retains identification data (IP, timestamp) for <strong>1 year</strong> for moderation or judicial investigation purposes."
+        ],
+        "subSections": 
+          {
+            "subSectionTitle": "3.1 Content Reporting",
+            "description": "Any user can report content via the report button in the website. Reports must include:",
+            "listItems": [
+              "The <strong>URL of the content</strong>.",
+              "A <strong>detailed explanation</strong> of the issue.",
+              "The <strong>contact details of the reporter</strong> (anonymous reports will not be processed)."
+            ],
+            "additionalDescription": "Horkos commits to processing reports <strong>within 48 hours</strong>."
+          }
+        
+      },
+
+      "rgpdSections": {
+        "sectionTitle": "4. Data Protection (GDPR)",
+        "subSections": {
+          "collect": {
+            "subSectionTitle": "4.1 Data Collection",
+            "description": "Horkos limits data collection to what is strictly necessary:",
+            "listItems": [
+              "<strong>Email</strong> (for account creation).",
+              "<strong>Username</strong> (publicly displayed).",
+              "<strong>IP address and timestamp</strong> (for moderation, retained for <strong>1 year</strong>)."
+            ]
+          },
+          "rights": {
+            "subSectionTitle": "4.2 User Rights",
+            "description": "Each user has the following rights:",
+            "listItems": [
+              "<strong>Access</strong> to their data.",
+              "<strong>Rectification</strong> or <strong>deletion</strong> of their data by contacting us at contact@horkos.fr.",
+              "<strong>Portability</strong> of their contributions (subject to the rights of other users)."
+            ]
+          },
+          "security": {
+            "subSectionTitle": "4.3 Security",
+            "description": "Data is protected by:",
+            "listItems": [
+              "<strong>Encryption</strong> (HTTPS, secure databases).",
+              "<strong>Restricted access</strong> (only to designated administrators)."
+            ]
+          }
+        }
+      },
+
+      "answerRightsSections": {
+        "sectionTitle": "5. Right of Reply",
+        "description": "Under the <strong>law of July 29, 1881</strong>, any person mentioned on Horkos may request a <strong>right of reply</strong> by writing to <strong>contact@horkos.fr</strong>.",
+        "listItems": [
+          "The request will be processed <strong>within 48 hours</strong>.",
+          "The reply will be published <strong>near the content in question</strong> within a reasonable timeframe."
+        ]
+      },
+
+      "propertySections":{
+        "sectionTitle": "6. Intellectual Property",
+        "description": "The <strong>source code</strong> of the platform is distributed under the <strong>MIT license</strong> (open source).",
+        "additionalDescription": "User <strong>contributions</strong> (texts, verifications) are published under the <strong>Creative Commons BY-SA license</strong> (attribution + share-alike), unless otherwise specified. The <strong>Horkos brand and logos</strong> are protected and may not be used without authorization."
+      },
+
+      "updatingSections": {
+        "sectionTitle": "7. Modifications to the Terms of Use",
+        "description": "Horkos reserves the right to <strong>modify these rules</strong> to:",
+        "listItems": [
+          "Comply with <strong>applicable legislation</strong>.",
+          "Improve the platform’s functionality.",
+          "Adapt the rules to <strong>community practices</strong>."
+        ],
+        "additionalDescription": "Users will be <strong>notified of changes</strong> via a notification on the site or by email. Continued use of Horkos after modification constitutes <strong>acceptance of the new rules</strong>."
+      },
+
+      "suspendSections": {
+        "sectionTitle": "8. Termination and Suspension",
+        "description": "Horkos may <strong>suspend or terminate</strong> a user’s access in case of:",
+        "listItems": [
+          "<strong>Repeated violations</strong> of these Terms of Use.",
+          "<strong>Fraudulent behavior</strong> (e.g., creating multiple accounts to manipulate votes).",
+          "<strong>Illegal activity</strong>."
+        ]
+      },
+
+      "lawSections": {
+        "sectionTitle": "9. Applicable Law and Disputes",
+        "description": "These Terms of Use are governed by <strong>French law</strong>.",
+        "additionalDescription": "Any dispute will be subject to the <strong>competent courts</strong> of Lyon (location of the association’s headquarters). In case of disagreement, <strong>mediation</strong> will be proposed before any legal action."
+      },
+
+      "contactSections": {
+        "sectionTitle": "10. Contact",
+        "description": "For any questions:",
+        "listItems": [
+          "<strong>Email</strong>: contact@horkos.fr",
+          "<strong>Contact form</strong>: <a href='#'>Link</a>"
+        ],
+        "footer": "<em>These Terms of Use were last updated on [date]. Horkos encourages users to review them regularly.</em>"
+      }
+    }
+  },
     "createFact": {
       "title": "Rules for Creating a Fact",
       "body": "A fact, within the meaning of <strong>Horkos</strong>, is a precise, dated, and verifiable piece of information associated with a public entity. It is based on observable or documented elements and can be confirmed or challenged using accessible sources. A fact is neither an opinion, nor a personal analysis, nor a moral judgment. It must be understandable, verifiable, and open to discussion regardless of who publishes it.<br/><br/>Creating a fact requires meeting several essential criteria. Contributors must provide a clear context that makes it possible to understand what happened, a factual summary that is accessible to all, and the specific elements on which the information is based, such as a statement, a decision, or an identified event. Any fact must be accompanied by at least one reliable primary source, clearly identified and directly linked to the content presented. Dates must be consistent and allow the fact to be placed in time without ambiguity.<br/><br/>The wording of a fact must remain strictly neutral. The contributor’s role is to describe elements as they are established, without attempting to guide the reader’s interpretation. Accusatory, ironic, or suggestive wording that implies unproven intent should be avoided. When contradictions exist, they must be presented factually, supported by sources, without exaggeration or judgment.<br/><br/>Sources must be identifiable, accessible, and verifiable. They should clearly indicate their author, publication date, and origin. Anonymous content, screenshots without context, rumors, or unverifiable documents are not acceptable sources. When a fact relies on multiple sources, their diversity and consistency strengthen its reliability and credibility.<br/><br/>Speculation, extrapolation, presumed intentions, personal analysis, or content whose primary purpose is emotional or activist are not considered valid facts. Any fact that cannot be verified or rigorously contextualized may be challenged by the community or by moderation.",
@@ -713,21 +865,26 @@
       }
     },
     "legal": {
-      "title": "Legal Notice & Compliance",
-      "description": "<strong>Horkos</strong> is a civic platform dedicated to transparency and verification of public information. Our mission is to allow everyone to contribute to a more informed debate while respecting principles of responsibility and legality.",
-      "responsibilityTitle": "Platform Responsibility and Status",
-      "responsibilityDescription": "Horkos is not a press publisher in the legal sense: published content (facts, comments, verifications) is the responsibility of its authors. Each user agrees to publish accurate, sourced information that complies with applicable laws, particularly regarding defamation and privacy.",
-      "responsibilityLaw": "In accordance with <strong>Article 6, II of Law n°2004-575 of June 21, 2004</strong> on trust in the digital economy (LCEN), Horkos keeps data allowing the identification of content authors (IP address, username, action timestamp) for a legal period of one (1) year. This data is only accessible in case of judicial or administrative request.",
+      "title": "Legal Notices & Compliance",
+      "description": "<strong>Horkos</strong> is a civic platform dedicated to transparency and the verification of public information (a non-profit association under the French law of 1901).",
+      "contactTitle": "Publisher and Contact",
+      "contactDescription": "<strong>Horkos Association</strong><br />Email: contact@horkos.fr<br />Publisher: Baptiste HECTOR, President of the Horkos Association.<br />RNA Number: Association in the process of being established.<br />Host: Name of the host, e.g.: Microsoft France – 37 Quai du Président Roosevelt, 92130 Issy-les-Moulineaux.",
+      "responsibilityTitle": "Responsibility and Platform Status",
+      "responsibilityDescription": "<strong>Horkos</strong> is not a press publisher: the content (facts, comments, verifications) is the sole responsibility of their authors. Each user commits to publishing accurate, sourced, and law-compliant information (particularly regarding defamation, privacy, and discrimination).<br /><br />Hosting Provider Status: In accordance with Article 6-I-2 of the LCEN, Horkos acts as a hosting provider. Data allowing the identification of authors (IP, identifier, timestamp) are kept for 1 year and are only accessible in the event of a judicial requisition.<br /><br />Removal of Illegal Content: Any clearly illegal content reported via this form will be removed within 48 hours (Article 6-I-5 LCEN).",
       "reportTitle": "Reporting System",
-      "reportDescription": "Any user may report content they believe to be unlawful, defamatory, or contrary to community rules. These reports are reviewed carefully by the moderation team, which commits to acting promptly to examine the content and, if necessary, take appropriate measures (removal, suspension, etc.).",
+      "reportDescription": "Any user can report content they consider illegal, defamatory, or contrary to community rules. These reports are carefully reviewed by the moderation team, which commits to intervening promptly to examine the content in question and, if necessary, take appropriate measures (removal, suspension, etc.).<br /> Reports must include a reason and a detailed explanation to be processed.",
       "rgpdTitle": "Personal Data Protection (GDPR)",
-      "rgpdDescription": "In accordance with the <strong>General Data Protection Regulation (EU) 2016/679</strong> and the amended <strong>French Data Protection Act</strong>, Horkos is committed to minimal collection of personal data.",
-      "rgpdList1": "The only stored information is email address, username, and IP address (for 1 year).",
+      "rgpdDescription": "In accordance with <strong>Regulation (EU) 2016/679</strong> on data protection (GDPR) and the amended <strong>French Data Protection Act</strong>, <strong>Horkos</strong> is committed to minimal collection of personal data.",
+      "rgpdList1": "The only information retained is the email address, username, and IP address (for 1 year).",
       "rgpdList2": "No sensitive data (origin, opinions, orientation, health, etc.) is collected or processed.",
-      "rgpdList3": "Users may exercise their rights of access, rectification or deletion by contacting Horkos via the dedicated form.",
-      "moderationTitle": "Moderation and Legal Compliance",
-      "moderationDescription": "Published contributions must comply with the Criminal Code and Civil Code, particularly regarding insulting, defamatory or discriminatory statements. Horkos reserves the right to suspend or delete any content contrary to the law or the terms of use.",
-      "footer": "Horkos promotes transparency and individual responsibility.<br />Together, let’s ensure a respectful, free, and lawful civic expression space."
+      "rgpdList3": "Users can exercise their rights to access, rectify, or delete their data by contacting <strong>Horkos</strong> at contact@horkos.fr.",
+      "moderationTitle": "Moderation and Compliance with the Law",
+      "moderationDescription": "Published contributions must comply with the provisions of the Penal Code and Civil Code, particularly regarding hate speech, defamation, discrimination, insults, invasion of privacy, and verified misinformation. <strong>Horkos</strong> reserves the right to suspend or remove any illegal content or content that violates the terms of use, as well as to suspend accounts in case of violations.",
+      "answerTitle": "Right of Reply",
+      "answerDescription": "In accordance with the law of July 29, 1881, any person mentioned on Horkos can exercise their right of reply by writing to contact@horkos.fr. The request will be processed as soon as possible.",
+      "updateTitle": "Update",
+      "updateDescription": "These legal notices were updated on 03/13/2026. Horkos reserves the right to modify them to comply with current legislation.",
+      "footer": "<em><strong>Horkos</strong> promotes transparency and individual responsibility.<br />Together, let's ensure a respectful, free, and law-compliant civic expression space.</em>"
     },
     "privacy": {
       "title": "Privacy Policy",

@@ -115,7 +115,7 @@
       { property: 'og:site_name', content: 'Horkos' },
       { property: 'og:title', content: 'Horkos - Plateforme citoyenne' },
       { property: 'og:description', content: 'On archive les déclarations politiques des personnalités politiques. Rejoignez l\'expérimentation !' },
-      { property: 'og:image', content: 'http://horkos.fr/HorkosIcon.ico' },
+      { property: 'og:image', content: 'https://horkos.fr/HorkosIcon.ico' },
     ],
   })
 
