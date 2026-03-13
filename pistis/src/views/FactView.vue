@@ -130,9 +130,9 @@
     meta: [
       { property: 'og:type', content: 'website' },
       { property: 'og:site_name', content: 'Horkos' },
-      { property: 'og:title', content: computed(() => `Fiabilité de ${entity.value?.name ?? '...'} | Horkos`) },
+      { property: 'og:title', content: computed(() => `${fact.value?.title ?? '...'} | Horkos`) },
       { property: 'og:description', content: 'On archive les déclarations politiques des personnalités politiques. Rejoignez l\'expérimentation !' },
-      { property: 'og:image', content: computed(() => entity.value?.imageUrl || 'http://horkos.fr/HorkosIcon.ico') },
+      { property: 'og:image', content: computed(() => 'https://horkos.fr/HorkosIcon.ico') },
     ],
   })
 

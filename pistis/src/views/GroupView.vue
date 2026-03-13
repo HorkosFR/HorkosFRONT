@@ -169,7 +169,7 @@
       { property: 'og:site_name', content: 'Horkos' },
       { property: 'og:title', content: computed(() => `Fiabilité globale - ${group.value?.name ?? '...'} | Horkos`) },
       { property: 'og:description', content: 'On archive les déclarations politiques des personnalités politiques. Rejoignez l\'expérimentation !' },
-      { property: 'og:image', content: computed(() => group.value?.imageUrl || 'http://horkos.fr/HorkosIcon.ico') },
+      { property: 'og:image', content: computed(() => 'https://horkos.fr/HorkosIcon.ico') },
     ],
   })
 
