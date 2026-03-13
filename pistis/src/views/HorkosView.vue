@@ -79,7 +79,195 @@
             <v-card class="pa-md-6 pa-2 ma-md-4" elevation="3">
               <v-card-text class="text-body-1 space-y-4">
                 <h2 class="font-weight-medium mb-3" v-html="t('horkosview.cgu.title')" />
-                <p v-html="t('horkosview.cgu.body')" />
+
+                <h3
+                  class="text-h6 font-weight-medium mb-3"
+                  v-html="t('horkosview.cgu.sections.missionSections.sectionTitle')"
+                />
+                <p v-html="t('horkosview.cgu.sections.missionSections.description')" />
+
+                <ul class="ml-6">
+                  <li v-html="t('horkosview.cgu.sections.missionSections.listItems[0]')" />
+                  <li v-html="t('horkosview.cgu.sections.missionSections.listItems[1]')" />
+                  <li v-html="t('horkosview.cgu.sections.missionSections.listItems[2]')" />
+                </ul>
+
+                <v-divider class="my-4" />
+
+                <h3
+                  class="text-h6 font-weight-medium mb-3"
+                  v-html="t('horkosview.cgu.sections.repsonsibilitySections.sectionTitle')"
+                />
+
+                <h4
+                  class="text-h6 font-weight-medium mb-3"
+                  v-html="t('horkosview.cgu.sections.repsonsibilitySections.subSections.content.subSectionTitle')"
+                />
+                <p v-html="t('horkosview.cgu.sections.repsonsibilitySections.subSections.content.description')" />
+                <ul class="ml-6">
+                  <li v-html="t('horkosview.cgu.sections.repsonsibilitySections.subSections.content.listItems[0]')" />
+                  <li v-html="t('horkosview.cgu.sections.repsonsibilitySections.subSections.content.listItems[1]')" />
+                  <li v-html="t('horkosview.cgu.sections.repsonsibilitySections.subSections.content.listItems[2]')" />
+                </ul>
+
+                <h4
+                  class="text-h6 font-weight-medium mb-3"
+                  v-html="t('horkosview.cgu.sections.repsonsibilitySections.subSections.forbidden.subSectionTitle')"
+                />
+                <p v-html="t('horkosview.cgu.sections.repsonsibilitySections.subSections.forbidden.description')" />
+                <ul class="ml-6">
+                  <li v-html="t('horkosview.cgu.sections.repsonsibilitySections.subSections.forbidden.listItems[0]')" />
+                  <li v-html="t('horkosview.cgu.sections.repsonsibilitySections.subSections.forbidden.listItems[1]')" />
+                  <li v-html="t('horkosview.cgu.sections.repsonsibilitySections.subSections.forbidden.listItems[2]')" />
+                  <li v-html="t('horkosview.cgu.sections.repsonsibilitySections.subSections.forbidden.listItems[3]')" />
+                  <li v-html="t('horkosview.cgu.sections.repsonsibilitySections.subSections.forbidden.listItems[4]')" />
+                </ul>
+
+                <h4
+                  class="text-h6 font-weight-medium mb-3"
+                  v-html="t('horkosview.cgu.sections.repsonsibilitySections.subSections.punishment.subSectionTitle')"
+                />
+                <p v-html="t('horkosview.cgu.sections.repsonsibilitySections.subSections.punishment.description')" />
+                <ul class="ml-6">
+                  <li v-html="t('horkosview.cgu.sections.repsonsibilitySections.subSections.punishment.listItems[0]')" />
+                  <li v-html="t('horkosview.cgu.sections.repsonsibilitySections.subSections.punishment.listItems[1]')" />
+                  <li v-html="t('horkosview.cgu.sections.repsonsibilitySections.subSections.punishment.listItems[2]')" />
+                </ul>
+                <p v-html="t('horkosview.cgu.sections.repsonsibilitySections.subSections.punishment.additionalDescription')" />
+
+                <v-divider class="my-4" />
+
+                <h3
+                  class="text-h6 font-weight-medium mb-3"
+                  v-html="t('horkosview.cgu.sections.roleSections.sectionTitle')"
+                />
+                <p v-html="t('horkosview.cgu.sections.roleSections.description')" />
+                <ul class="ml-6">
+                  <li v-html="t('horkosview.cgu.sections.roleSections.listItems[0]')" />
+                  <li v-html="t('horkosview.cgu.sections.roleSections.listItems[1]')" />
+                </ul>
+                <h4
+                  class="text-h6 font-weight-medium mb-3"
+                  v-html="t('horkosview.cgu.sections.roleSections.subSections.subSectionTitle')"
+                />
+                <p v-html="t('horkosview.cgu.sections.roleSections.subSections.description')" />
+                <ul class="ml-6">
+                  <li v-html="t('horkosview.cgu.sections.roleSections.subSections.listItems[0]')" />
+                  <li v-html="t('horkosview.cgu.sections.roleSections.subSections.listItems[1]')" />
+                </ul>
+                <p v-html="t('horkosview.cgu.sections.roleSections.subSections.additionalDescription')" />
+
+                <v-divider class="my-4" />
+
+                <h3
+                  class="text-h6 font-weight-medium mb-3"
+                  v-html="t('horkosview.cgu.sections.rgpdSections.sectionTitle')"
+                />
+
+                <h4
+                  class="text-h6 font-weight-medium mb-3"
+                  v-html="t('horkosview.cgu.sections.rgpdSections.subSections.collect.subSectionTitle')"
+                />
+                <p v-html="t('horkosview.cgu.sections.rgpdSections.subSections.collect.description')" />
+                <ul class="ml-6">
+                  <li v-html="t('horkosview.cgu.sections.rgpdSections.subSections.collect.listItems[0]')" />
+                  <li v-html="t('horkosview.cgu.sections.rgpdSections.subSections.collect.listItems[1]')" />
+                  <li v-html="t('horkosview.cgu.sections.rgpdSections.subSections.collect.listItems[2]')" />
+                </ul>
+
+                <h4
+                  class="text-h6 font-weight-medium mb-3"
+                  v-html="t('horkosview.cgu.sections.rgpdSections.subSections.rights.subSectionTitle')"
+                />
+                <p v-html="t('horkosview.cgu.sections.rgpdSections.subSections.rights.description')" />
+                <ul class="ml-6">
+                  <li v-html="t('horkosview.cgu.sections.rgpdSections.subSections.rights.listItems[0]')" />
+                  <li v-html="t('horkosview.cgu.sections.rgpdSections.subSections.rights.listItems[1]')" />
+                  <li v-html="t('horkosview.cgu.sections.rgpdSections.subSections.rights.listItems[2]')" />
+                </ul>
+
+                <v-divider class="my-4" />
+
+                <h3
+                  class="text-h6 font-weight-medium mb-3"
+                  v-html="t('horkosview.cgu.sections.answerRightsSections.sectionTitle')"
+                />
+                <p v-html="t('horkosview.cgu.sections.answerRightsSections.description')" />
+
+                <ul class="ml-6">
+                  <li v-html="t('horkosview.cgu.sections.answerRightsSections.listItems[0]')" />
+                  <li v-html="t('horkosview.cgu.sections.answerRightsSections.listItems[1]')" />
+                </ul>
+
+                <h4
+                  class="text-h6 font-weight-medium mb-3"
+                  v-html="t('horkosview.cgu.sections.rgpdSections.subSections.security.subSectionTitle')"
+                />
+                <p v-html="t('horkosview.cgu.sections.rgpdSections.subSections.security.description')" />
+                <ul class="ml-6">
+                  <li v-html="t('horkosview.cgu.sections.rgpdSections.subSections.security.listItems[0]')" />
+                  <li v-html="t('horkosview.cgu.sections.rgpdSections.subSections.security.listItems[1]')" />
+                </ul>
+
+                <v-divider class="my-4" />
+
+                <h3
+                  class="text-h6 font-weight-medium mb-3"
+                  v-html="t('horkosview.cgu.sections.propertySections.sectionTitle')"
+                />
+                <p v-html="t('horkosview.cgu.sections.propertySections.description')" />
+                <p v-html="t('horkosview.cgu.sections.propertySections.additionalDescription')" />
+
+                <v-divider class="my-4" />
+
+                <h3
+                  class="text-h6 font-weight-medium mb-3"
+                  v-html="t('horkosview.cgu.sections.suspendSections.sectionTitle')"
+                />
+                <p v-html="t('horkosview.cgu.sections.suspendSections.description')" />
+
+                <ul class="ml-6">
+                  <li v-html="t('horkosview.cgu.sections.suspendSections.listItems[0]')" />
+                  <li v-html="t('horkosview.cgu.sections.suspendSections.listItems[1]')" />
+                  <li v-html="t('horkosview.cgu.sections.suspendSections.listItems[2]')" />
+                </ul>
+
+                <v-divider class="my-4" />
+
+                <h3
+                  class="text-h6 font-weight-medium mb-3"
+                  v-html="t('horkosview.cgu.sections.updatingSections.sectionTitle')"
+                />
+                <p v-html="t('horkosview.cgu.sections.updatingSections.description')" />
+
+                <ul class="ml-6">
+                  <li v-html="t('horkosview.cgu.sections.updatingSections.listItems[0]')" />
+                  <li v-html="t('horkosview.cgu.sections.updatingSections.listItems[1]')" />
+                  <li v-html="t('horkosview.cgu.sections.updatingSections.listItems[2]')" />
+                </ul>
+                <p v-html="t('horkosview.cgu.sections.updatingSections.additionalDescription')" />
+
+                <v-divider class="my-4" />
+
+                <h3
+                  class="text-h6 font-weight-medium mb-3"
+                  v-html="t('horkosview.cgu.sections.lawSections.sectionTitle')"
+                />
+                <p v-html="t('horkosview.cgu.sections.lawSections.description')" />
+                <p v-html="t('horkosview.cgu.sections.lawSections.additionalDescription')" />
+
+                <v-divider class="my-4" />
+
+                <h3
+                  class="text-h6 font-weight-medium mb-3"
+                  v-html="t('horkosview.cgu.sections.contactSections.sectionTitle')"
+                />
+                <p v-html="t('horkosview.cgu.sections.contactSections.description')" />
+
+                <ul class="ml-6">
+                  <li v-html="t('horkosview.cgu.sections.contactSections.listItems[0]')" />
+                </ul>
+                <p v-html="t('horkosview.cgu.sections.contactSections.footer')" />
               </v-card-text>
             </v-card>
           </v-window-item>
@@ -342,9 +530,13 @@
 
                 <v-divider class="my-4" />
 
+                <h3 class="font-weight-medium mb-2" v-html="t('horkosview.legal.contactTitle')" />
+                <p v-html="t('horkosview.legal.contactDescription')" />
+
+                <v-divider class="my-4" />
+
                 <h3 class="font-weight-medium mb-2" v-html="t('horkosview.legal.responsibilityTitle')" />
                 <p v-html="t('horkosview.legal.responsibilityDescription')" />
-                <p v-html="t('horkosview.legal.responsibilityLaw')" />
 
                 <v-divider class="my-4" />
 
@@ -365,6 +557,16 @@
 
                 <h3 class="font-weight-medium mb-2" v-html="t('horkosview.legal.moderationTitle')" />
                 <p v-html="t('horkosview.legal.moderationDescription')" />
+
+                <v-divider class="my-4" />
+
+                <h3 class="font-weight-medium mb-2" v-html="t('horkosview.legal.answerTitle')" />
+                <p v-html="t('horkosview.legal.answerDescription')" />
+
+                <v-divider class="my-4" />
+
+                <h3 class="font-weight-medium mb-2" v-html="t('horkosview.legal.updateTitle')" />
+                <p v-html="t('horkosview.legal.updateDescription')" />
 
                 <v-divider class="my-4" />
 
