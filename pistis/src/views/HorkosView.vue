@@ -802,7 +802,7 @@
     link: [
       {
         rel: 'canonical',
-        href: 'https://horkos.fr/horkosview',
+        href: 'https://horkos.fr/us',
       },
     ],
   })
